@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ProductAddToCartWithoutLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c3a52735-dd2a-4b00-9044-da3fef273a2c</testCaseGuid>
+</TestCaseEntity>
