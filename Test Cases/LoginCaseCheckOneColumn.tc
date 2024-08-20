@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LoginCaseCheckOneColumn</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>86b854c5-427c-41f8-8d42-8b6ce85c4c73</testCaseGuid>
+</TestCaseEntity>
