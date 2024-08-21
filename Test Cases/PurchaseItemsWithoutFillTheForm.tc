@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PurchaseItemsWithoutFillTheForm</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dd4d273f-5859-4963-bb8f-6da0e5683f00</testCaseGuid>
+</TestCaseEntity>
