@@ -17,15 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
+
+def data = findTestData('LoginData/loginData')
+
+def index = 2
+def userName = data.getValue('userName', index)
+def Password = data.getValue('Password', index)
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.demoblaze.com/')
 
 WebUI.click(findTestObject('Object Repository/PurchaseItems/Page_STORE/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/PurchaseItems/Page_STORE/input_Username_loginusername'), 'snehaaot')
+WebUI.setText(findTestObject('Object Repository/PurchaseItems/Page_STORE/input_Username_loginusername'), userName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/PurchaseItems/Page_STORE/input_Password_loginpassword'), 'RigbBhfdqODKcAsiUrg+1Q==')
+WebUI.setText(findTestObject('Object Repository/PurchaseItems/Page_STORE/input_Password_loginpassword'), Password)
 
 WebUI.click(findTestObject('Object Repository/PurchaseItems/Page_STORE/button_Log in'))
 
