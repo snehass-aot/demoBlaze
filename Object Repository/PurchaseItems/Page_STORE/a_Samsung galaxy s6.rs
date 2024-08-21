@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Samsung galaxy s6</name>
+   <tag></tag>
+   <elementGuidId>b02d9deb-810f-41af-9f38-4539934f493d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.hrefch</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tbodyid']/div/div/div/h4/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>2a1e9dad-a874-4389-b5c8-cc3bbd9791b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>prod.html?idp_=1</value>
+      <webElementGuid>15c3d9f5-2880-4bbf-86b9-9755660c3998</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>hrefch</value>
+      <webElementGuid>eac8adb4-7469-4c31-aadd-f0a3ce00db37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Samsung galaxy s6</value>
+      <webElementGuid>8afcfc44-d18e-4723-9224-a7c759156693</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tbodyid&quot;)/div[@class=&quot;col-lg-4 col-md-6 mb-4&quot;]/div[@class=&quot;card h-100&quot;]/div[@class=&quot;card-block&quot;]/h4[@class=&quot;card-title&quot;]/a[@class=&quot;hrefch&quot;]</value>
+      <webElementGuid>e168447b-afc7-409a-8754-69d71481fe2e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tbodyid']/div/div/div/h4/a</value>
+      <webElementGuid>bb140498-20c5-4600-b63d-1df889520070</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Samsung galaxy s6')]</value>
+      <webElementGuid>2d0368aa-b54d-404e-a1db-c3176c5a6dbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CATEGORIES'])[1]/following::a[5]</value>
+      <webElementGuid>7dcffd64-c760-4eb7-a180-d6b9648ed254</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/following::a[6]</value>
+      <webElementGuid>c3a8452a-eeef-400a-b7ba-63d2ee9ab2b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$360'])[1]/preceding::a[1]</value>
+      <webElementGuid>0a7d6495-10f2-4528-9413-216f04bda589</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nokia lumia 1520'])[1]/preceding::a[2]</value>
+      <webElementGuid>88780ca7-379f-406a-b2fc-3c22f59bcce5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Samsung galaxy s6']/parent::*</value>
+      <webElementGuid>f2013c27-571e-4b72-93b3-cb86df2a8b63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'prod.html?idp_=1')])[2]</value>
+      <webElementGuid>db426a6b-3c6d-4357-9ec4-31eb8ff738dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h4/a</value>
+      <webElementGuid>c38898c0-5a4d-4930-941e-60385277c3c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'prod.html?idp_=1' and (text() = 'Samsung galaxy s6' or . = 'Samsung galaxy s6')]</value>
+      <webElementGuid>545b86a3-444f-4b5b-b977-b600521c728c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
