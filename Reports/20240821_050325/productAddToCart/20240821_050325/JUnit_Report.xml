@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="productAddToCart" time="44.882" tests="2" failures="0" errors="0">
+   <testsuite name="productAddToCart" tests="2" failures="0" errors="0" time="44.882" skipped="0" timestamp="21-08-2024T05:03:29" hostname="aotir - host.docker.internal" id="Test Suites/productAddToCart">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\aotir\\git\\demoBlaze\\Reports\\20240821_050325\\productAddToCart\\20240821_050325"/>
+         <property name="logFiles" value="C:\\Users\\aotir\\git\\demoBlaze\\Reports\\20240821_050325\\productAddToCart\\20240821_050325\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\aotir\\git\\demoBlaze\\Reports\\20240821_050325\\productAddToCart\\20240821_050325\\1724241853665.png"/>
+         <property name="hostName" value="aotir - host.docker.internal"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.150"/>
+         <property name="sessionId" value="347da8854e8036771e781f948047b278"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/ProductAddToCart" time="26.92" classname="Test Cases/ProductAddToCart" status="PASSED">
+         <system-out><![CDATA[21-08-2024T05:03:29 - [TEST_CASE][PASSED] - Test Cases/ProductAddToCart: Test Cases/ProductAddToCart
+
+21-08-2024T05:03:29 - [TEST_STEP][PASSED] - data = findTestData("LoginData/LoginData"): null
+
+21-08-2024T05:03:30 - [TEST_STEP][PASSED] - index = 2: null
+
+21-08-2024T05:03:30 - [TEST_STEP][PASSED] - userName = data.getValue("userName", index): null
+
+21-08-2024T05:03:30 - [TEST_STEP][PASSED] - Password = data.getValue("Password", index): null
+
+21-08-2024T05:03:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-08-2024T05:03:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-08-2024T05:03:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-08-2024T05:03:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-08-2024T05:03:32 - [TEST_STEP][PASSED] - navigateToUrl("https://www.demoblaze.com/"): Navigate to 'https://www.demoblaze.com/' successfully
+
+21-08-2024T05:03:33 - [MESSAGE][PASSED] - Navigate to 'https://www.demoblaze.com/' successfully
+
+21-08-2024T05:03:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddToCart/Page_STORE/a_Log in")): Object: 'Object Repository/AddToCart/Page_STORE/a_Log in' is clicked on
+
+21-08-2024T05:03:34 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCart/Page_STORE/a_Log in' is clicked on
+
+21-08-2024T05:03:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AddToCart/Page_STORE/input_Username_loginusername"), userName): Text 'snehassaot' is set on object 'Object Repository/AddToCart/Page_STORE/input_Username_loginusername'
+
+21-08-2024T05:03:35 - [MESSAGE][PASSED] - Text 'snehassaot' is set on object 'Object Repository/AddToCart/Page_STORE/input_Username_loginusername'
+
+21-08-2024T05:03:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AddToCart/Page_STORE/input_Password_loginpassword"), Password): Text '12345' is set on object 'Object Repository/AddToCart/Page_STORE/input_Password_loginpassword'
+
+21-08-2024T05:03:36 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/AddToCart/Page_STORE/input_Password_loginpassword'
+
+21-08-2024T05:03:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddToCart/Page_STORE/button_Log in")): Object: 'Object Repository/AddToCart/Page_STORE/button_Log in' is clicked on
+
+21-08-2024T05:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCart/Page_STORE/button_Log in' is clicked on
+
+21-08-2024T05:03:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddToCart/Page_STORE/a_HTC One M9")): Object: 'Object Repository/AddToCart/Page_STORE/a_HTC One M9' is clicked on
+
+21-08-2024T05:03:39 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCart/Page_STORE/a_HTC One M9' is clicked on
+
+21-08-2024T05:03:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddToCart/Page_STORE/a_Add to cart")): Object: 'Object Repository/AddToCart/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T05:03:40 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCart/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T05:03:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddToCart/Page_STORE/a_Home (current)")): Object: 'Object Repository/AddToCart/Page_STORE/a_Home (current)' is clicked on
+
+21-08-2024T05:03:41 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCart/Page_STORE/a_Home (current)' is clicked on
+
+21-08-2024T05:03:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddToCart/Page_STORE/button_Next")): Object: 'Object Repository/AddToCart/Page_STORE/button_Next' is clicked on
+
+21-08-2024T05:03:42 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCart/Page_STORE/button_Next' is clicked on
+
+21-08-2024T05:03:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddToCart/Page_STORE/a_Dell i7 8gb")): Object: 'Object Repository/AddToCart/Page_STORE/a_Dell i7 8gb' is clicked on
+
+21-08-2024T05:03:44 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCart/Page_STORE/a_Dell i7 8gb' is clicked on
+
+21-08-2024T05:03:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddToCart/Page_STORE/a_Add to cart")): Object: 'Object Repository/AddToCart/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T05:03:46 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCart/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T05:03:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddToCart/Page_STORE/a_Home (current)")): Object: 'Object Repository/AddToCart/Page_STORE/a_Home (current)' is clicked on
+
+21-08-2024T05:03:48 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCart/Page_STORE/a_Home (current)' is clicked on
+
+21-08-2024T05:03:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddToCart/Page_STORE/a_Sony vaio i5")): Object: 'Object Repository/AddToCart/Page_STORE/a_Sony vaio i5' is clicked on
+
+21-08-2024T05:03:50 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCart/Page_STORE/a_Sony vaio i5' is clicked on
+
+21-08-2024T05:03:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddToCart/Page_STORE/a_Add to cart")): Object: 'Object Repository/AddToCart/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T05:03:51 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCart/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T05:03:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddToCart/Page_STORE/a_Cart")): Object: 'Object Repository/AddToCart/Page_STORE/a_Cart' is clicked on
+
+21-08-2024T05:03:53 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCart/Page_STORE/a_Cart' is clicked on
+
+21-08-2024T05:03:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AddToCart/Page_STORE/a_Delete"), 5, STOP_ON_FAILURE): Object 'Object Repository/AddToCart/Page_STORE/a_Delete' is present
+
+21-08-2024T05:03:56 - [MESSAGE][PASSED] - Object 'Object Repository/AddToCart/Page_STORE/a_Delete' is present
+
+21-08-2024T05:03:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-08-2024T05:03:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProductAddToCartWithoutLogin" time="17.781" classname="Test Cases/ProductAddToCartWithoutLogin" status="PASSED">
+         <system-out><![CDATA[21-08-2024T05:03:56 - [TEST_CASE][PASSED] - Test Cases/ProductAddToCartWithoutLogin: Test Cases/ProductAddToCartWithoutLogin
+
+21-08-2024T05:03:56 - [TEST_STEP][PASSED] - data = findTestData("LoginData/LoginData"): null
+
+21-08-2024T05:03:56 - [TEST_STEP][PASSED] - index = 2: null
+
+21-08-2024T05:03:56 - [TEST_STEP][PASSED] - userName = data.getValue("userName", index): null
+
+21-08-2024T05:03:56 - [TEST_STEP][PASSED] - Password = data.getValue("Password", index): null
+
+21-08-2024T05:03:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-08-2024T05:03:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-08-2024T05:03:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-08-2024T05:03:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-08-2024T05:03:57 - [TEST_STEP][PASSED] - navigateToUrl("https://www.demoblaze.com/"): Navigate to 'https://www.demoblaze.com/' successfully
+
+21-08-2024T05:03:58 - [MESSAGE][PASSED] - Navigate to 'https://www.demoblaze.com/' successfully
+
+21-08-2024T05:03:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddToCart/Page_STORE/a_HTC One M9")): Object: 'Object Repository/AddToCart/Page_STORE/a_HTC One M9' is clicked on
+
+21-08-2024T05:04:00 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCart/Page_STORE/a_HTC One M9' is clicked on
+
+21-08-2024T05:04:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddToCart/Page_STORE/a_Add to cart")): Object: 'Object Repository/AddToCart/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T05:04:01 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCart/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T05:04:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddToCart/Page_STORE/a_Home (current)")): Object: 'Object Repository/AddToCart/Page_STORE/a_Home (current)' is clicked on
+
+21-08-2024T05:04:03 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCart/Page_STORE/a_Home (current)' is clicked on
+
+21-08-2024T05:04:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddToCart/Page_STORE/button_Next")): Object: 'Object Repository/AddToCart/Page_STORE/button_Next' is clicked on
+
+21-08-2024T05:04:04 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCart/Page_STORE/button_Next' is clicked on
+
+21-08-2024T05:04:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddToCart/Page_STORE/a_Dell i7 8gb")): Object: 'Object Repository/AddToCart/Page_STORE/a_Dell i7 8gb' is clicked on
+
+21-08-2024T05:04:05 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCart/Page_STORE/a_Dell i7 8gb' is clicked on
+
+21-08-2024T05:04:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddToCart/Page_STORE/a_Add to cart")): Object: 'Object Repository/AddToCart/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T05:04:06 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCart/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T05:04:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddToCart/Page_STORE/a_Home (current)")): Object: 'Object Repository/AddToCart/Page_STORE/a_Home (current)' is clicked on
+
+21-08-2024T05:04:06 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCart/Page_STORE/a_Home (current)' is clicked on
+
+21-08-2024T05:04:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddToCart/Page_STORE/a_Sony vaio i5")): Object: 'Object Repository/AddToCart/Page_STORE/a_Sony vaio i5' is clicked on
+
+21-08-2024T05:04:08 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCart/Page_STORE/a_Sony vaio i5' is clicked on
+
+21-08-2024T05:04:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddToCart/Page_STORE/a_Add to cart")): Object: 'Object Repository/AddToCart/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T05:04:10 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCart/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T05:04:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddToCart/Page_STORE/a_Cart")): Object: 'Object Repository/AddToCart/Page_STORE/a_Cart' is clicked on
+
+21-08-2024T05:04:11 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCart/Page_STORE/a_Cart' is clicked on
+
+21-08-2024T05:04:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AddToCart/Page_STORE/a_Delete"), 5, STOP_ON_FAILURE): Object 'Object Repository/AddToCart/Page_STORE/a_Delete' is present
+
+21-08-2024T05:04:13 - [MESSAGE][PASSED] - Object 'Object Repository/AddToCart/Page_STORE/a_Delete' is present
+
+21-08-2024T05:04:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddProduct/Page_STORE/a_Delete"), OPTIONAL): Unable to click on object (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:647)
+	at ProductAddToCartWithoutLogin.run(ProductAddToCartWithoutLogin:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1724241805348.run(TempTestSuite1724241805348.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:647)
+	at Script1724178510706.run(Script1724178510706.groovy:43)
+	... 15 more
+)
+
+21-08-2024T05:04:13 - [MESSAGE][WARNING] - Test object with id 'Object Repository/AddProduct/Page_STORE/a_Delete' does not exist
+
+21-08-2024T05:04:13 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+21-08-2024T05:04:13 - [MESSAGE][WARNING] - Unable to click on object (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:647)
+	at ProductAddToCartWithoutLogin.run(ProductAddToCartWithoutLogin:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1724241805348.run(TempTestSuite1724241805348.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:647)
+	at Script1724178510706.run(Script1724178510706.groovy:43)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\aotir\\git\\demoBlaze\\Reports\\20240821_050325\\productAddToCart\\20240821_050325\\1724241853665.png]]
+
+21-08-2024T05:04:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-08-2024T05:04:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-08-2024T05:03:29 - [TEST_SUITE][PASSED] - productAddToCart: Test Cases/ProductAddToCartWithoutLogin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PriceofProduct,Chrome 127.0.0.0,,,21-08-2024 05:20:06,21-08-2024 05:20:35,29.371s,FAILED
+,,,,,,,
+Test Cases/PriceOfProducts,Chrome 127.0.0.0,,,21-08-2024 05:20:06,21-08-2024 05:20:35,29.171s,FAILED
+"data = findTestData(""LoginData/LoginData"")",Chrome 127.0.0.0,,,21-08-2024 05:20:06,21-08-2024 05:20:07,0.586s,PASSED
+index = 2,Chrome 127.0.0.0,,,21-08-2024 05:20:07,21-08-2024 05:20:07,0.004s,PASSED
+"userName = data.getValue(""userName"", index)",Chrome 127.0.0.0,,,21-08-2024 05:20:07,21-08-2024 05:20:07,0.056s,PASSED
+"Password = data.getValue(""Password"", index)",Chrome 127.0.0.0,,,21-08-2024 05:20:07,21-08-2024 05:20:07,0.044s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,21-08-2024 05:20:07,21-08-2024 05:20:09,2.078s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/"")",Chrome 127.0.0.0,,,21-08-2024 05:20:09,21-08-2024 05:20:11,1.602s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_Log in""))",Chrome 127.0.0.0,,,21-08-2024 05:20:11,21-08-2024 05:20:12,1.218s,PASSED
+"setText(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/input_Username_loginusername""), userName)",Chrome 127.0.0.0,,,21-08-2024 05:20:12,21-08-2024 05:20:13,0.939s,PASSED
+"setText(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/input_Password_loginpassword""), Password)",Chrome 127.0.0.0,,,21-08-2024 05:20:13,21-08-2024 05:20:14,0.682s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/button_Log in""))",Chrome 127.0.0.0,,,21-08-2024 05:20:14,21-08-2024 05:20:14,0.376s,PASSED
+"orgnlPrice1 = getText(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/h5_700""))",Chrome 127.0.0.0,,,21-08-2024 05:20:14,21-08-2024 05:20:16,2.146s,PASSED
+"orgnlPrice2 = getText(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/h5_790""))",Chrome 127.0.0.0,,,21-08-2024 05:20:16,21-08-2024 05:20:17,0.304s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_HTC One M9""))",Chrome 127.0.0.0,,,21-08-2024 05:20:17,21-08-2024 05:20:17,0.960s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 05:20:17,21-08-2024 05:20:19,1.113s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_Home (current)""))",Chrome 127.0.0.0,,,21-08-2024 05:20:19,21-08-2024 05:20:20,1.142s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/h5_790""))",Chrome 127.0.0.0,,,21-08-2024 05:20:20,21-08-2024 05:20:21,0.870s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_Sony vaio i5""))",Chrome 127.0.0.0,,,21-08-2024 05:20:21,21-08-2024 05:20:22,1.120s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 05:20:22,21-08-2024 05:20:23,1.623s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_Home (current)""))",Chrome 127.0.0.0,,,21-08-2024 05:20:23,21-08-2024 05:20:24,0.806s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/button_Next""))",Chrome 127.0.0.0,,,21-08-2024 05:20:24,21-08-2024 05:20:25,0.903s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_Dell i7 8gb""))",Chrome 127.0.0.0,,,21-08-2024 05:20:25,21-08-2024 05:20:27,2.141s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 05:20:27,21-08-2024 05:20:29,1.528s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_Cart""))",Chrome 127.0.0.0,,,21-08-2024 05:20:29,21-08-2024 05:20:31,2.642s,PASSED
+"dsplyPrice1 = getText(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/td_700""))",Chrome 127.0.0.0,,,21-08-2024 05:20:31,21-08-2024 05:20:35,3.519s,PASSED
+"dsplyPrice2 = getText(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/td_790""))",Chrome 127.0.0.0,,,21-08-2024 05:20:35,21-08-2024 05:20:35,0.271s,PASSED
+"orgnlPrice1 = orgnlPrice1.replace(""$"", """")",Chrome 127.0.0.0,,,21-08-2024 05:20:35,21-08-2024 05:20:35,0.005s,PASSED
+assert orgnlPrice1 == dsplyPrice1,Chrome 127.0.0.0,,,21-08-2024 05:20:35,21-08-2024 05:20:35,0.004s,PASSED
+"orgnlPrice2 = orgnlPrice2.replace(""$"", """")",Chrome 127.0.0.0,,,21-08-2024 05:20:35,21-08-2024 05:20:35,0.003s,PASSED
+assert orgnlPrice2 == dsplyPrice2,Chrome 127.0.0.0,,,21-08-2024 05:20:35,21-08-2024 05:20:35,0.012s,FAILED

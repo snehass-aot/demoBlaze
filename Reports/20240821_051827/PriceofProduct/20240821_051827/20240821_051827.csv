@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PriceofProduct,Chrome 127.0.0.0,,,21-08-2024 05:18:32,21-08-2024 05:19:09,36.458s,FAILED
+,,,,,,,
+Test Cases/PriceOfProducts,Chrome 127.0.0.0,,,21-08-2024 05:18:32,21-08-2024 05:19:09,36.244s,FAILED
+"data = findTestData(""LoginData/LoginData"")",Chrome 127.0.0.0,,,21-08-2024 05:18:33,21-08-2024 05:18:33,0.551s,PASSED
+index = 2,Chrome 127.0.0.0,,,21-08-2024 05:18:33,21-08-2024 05:18:33,0.004s,PASSED
+"userName = data.getValue(""userName"", index)",Chrome 127.0.0.0,,,21-08-2024 05:18:33,21-08-2024 05:18:33,0.045s,PASSED
+"Password = data.getValue(""Password"", index)",Chrome 127.0.0.0,,,21-08-2024 05:18:33,21-08-2024 05:18:33,0.035s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,21-08-2024 05:18:33,21-08-2024 05:18:36,2.298s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/"")",Chrome 127.0.0.0,,,21-08-2024 05:18:36,21-08-2024 05:18:36,0.625s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_Log in""))",Chrome 127.0.0.0,,,21-08-2024 05:18:36,21-08-2024 05:18:38,1.907s,PASSED
+"setText(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/input_Username_loginusername""), userName)",Chrome 127.0.0.0,,,21-08-2024 05:18:38,21-08-2024 05:18:39,0.936s,PASSED
+"setText(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/input_Password_loginpassword""), Password)",Chrome 127.0.0.0,,,21-08-2024 05:18:39,21-08-2024 05:18:40,0.661s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/button_Log in""))",Chrome 127.0.0.0,,,21-08-2024 05:18:40,21-08-2024 05:18:40,0.308s,PASSED
+"orgnlPrice1 = getText(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/h5_700""))",Chrome 127.0.0.0,,,21-08-2024 05:18:40,21-08-2024 05:18:43,2.469s,PASSED
+"orgnlPrice2 = getText(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/h5_790""))",Chrome 127.0.0.0,,,21-08-2024 05:18:43,21-08-2024 05:18:43,0.281s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_HTC One M9""))",Chrome 127.0.0.0,,,21-08-2024 05:18:43,21-08-2024 05:18:44,1.002s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 05:18:44,21-08-2024 05:18:45,1.129s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_Home (current)""))",Chrome 127.0.0.0,,,21-08-2024 05:18:45,21-08-2024 05:18:47,2.087s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/h5_790""))",Chrome 127.0.0.0,,,21-08-2024 05:18:47,21-08-2024 05:18:48,1.144s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_Sony vaio i5""))",Chrome 127.0.0.0,,,21-08-2024 05:18:48,21-08-2024 05:18:49,0.685s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 05:18:49,21-08-2024 05:18:50,0.864s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_Home (current)""))",Chrome 127.0.0.0,,,21-08-2024 05:18:50,21-08-2024 05:18:51,0.881s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/button_Next""))",Chrome 127.0.0.0,,,21-08-2024 05:18:51,21-08-2024 05:18:51,0.620s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_Dell i7 8gb""))",Chrome 127.0.0.0,,,21-08-2024 05:18:51,21-08-2024 05:18:56,4.356s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 05:18:56,21-08-2024 05:18:57,0.847s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_Cart""))",Chrome 127.0.0.0,,,21-08-2024 05:18:57,21-08-2024 05:18:58,1.743s,PASSED
+"dsplyPrice1 = getText(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/td_700""))",Chrome 127.0.0.0,,,21-08-2024 05:18:58,21-08-2024 05:19:00,1.825s,PASSED
+"dsplyPrice2 = getText(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/td_790""))",Chrome 127.0.0.0,,,21-08-2024 05:19:00,21-08-2024 05:19:09,8.484s,FAILED

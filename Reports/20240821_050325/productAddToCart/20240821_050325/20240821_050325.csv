@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+productAddToCart,Chrome 127.0.0.0,,,21-08-2024 05:03:29,21-08-2024 05:04:14,44.882s,PASSED
+,,,,,,,
+Test Cases/ProductAddToCart,Chrome 127.0.0.0,,,21-08-2024 05:03:29,21-08-2024 05:03:56,26.920s,PASSED
+"data = findTestData(""LoginData/LoginData"")",Chrome 127.0.0.0,,,21-08-2024 05:03:29,21-08-2024 05:03:30,0.493s,PASSED
+index = 2,Chrome 127.0.0.0,,,21-08-2024 05:03:30,21-08-2024 05:03:30,0.002s,PASSED
+"userName = data.getValue(""userName"", index)",Chrome 127.0.0.0,,,21-08-2024 05:03:30,21-08-2024 05:03:30,0.044s,PASSED
+"Password = data.getValue(""Password"", index)",Chrome 127.0.0.0,,,21-08-2024 05:03:30,21-08-2024 05:03:30,0.027s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,21-08-2024 05:03:30,21-08-2024 05:03:32,1.798s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/"")",Chrome 127.0.0.0,,,21-08-2024 05:03:32,21-08-2024 05:03:33,1.419s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Log in""))",Chrome 127.0.0.0,,,21-08-2024 05:03:33,21-08-2024 05:03:34,1.178s,PASSED
+"setText(findTestObject(""Object Repository/AddToCart/Page_STORE/input_Username_loginusername""), userName)",Chrome 127.0.0.0,,,21-08-2024 05:03:34,21-08-2024 05:03:35,0.909s,PASSED
+"setText(findTestObject(""Object Repository/AddToCart/Page_STORE/input_Password_loginpassword""), Password)",Chrome 127.0.0.0,,,21-08-2024 05:03:35,21-08-2024 05:03:36,0.651s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/button_Log in""))",Chrome 127.0.0.0,,,21-08-2024 05:03:36,21-08-2024 05:03:36,0.296s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_HTC One M9""))",Chrome 127.0.0.0,,,21-08-2024 05:03:36,21-08-2024 05:03:39,2.834s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 05:03:39,21-08-2024 05:03:40,1.181s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Home (current)""))",Chrome 127.0.0.0,,,21-08-2024 05:03:40,21-08-2024 05:03:41,1.286s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/button_Next""))",Chrome 127.0.0.0,,,21-08-2024 05:03:41,21-08-2024 05:03:42,0.866s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Dell i7 8gb""))",Chrome 127.0.0.0,,,21-08-2024 05:03:42,21-08-2024 05:03:44,1.966s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 05:03:44,21-08-2024 05:03:46,2.012s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Home (current)""))",Chrome 127.0.0.0,,,21-08-2024 05:03:46,21-08-2024 05:03:48,2.031s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Sony vaio i5""))",Chrome 127.0.0.0,,,21-08-2024 05:03:48,21-08-2024 05:03:50,2.131s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 05:03:50,21-08-2024 05:03:51,1.187s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Cart""))",Chrome 127.0.0.0,,,21-08-2024 05:03:51,21-08-2024 05:03:53,1.362s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Delete""), 5, STOP_ON_FAILURE)",Chrome 127.0.0.0,,,21-08-2024 05:03:53,21-08-2024 05:03:56,2.711s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,21-08-2024 05:03:56,21-08-2024 05:03:56,0.232s,PASSED
+,,,,,,,
+Test Cases/ProductAddToCartWithoutLogin,Chrome 127.0.0.0,,,21-08-2024 05:03:56,21-08-2024 05:04:14,17.781s,PASSED
+"data = findTestData(""LoginData/LoginData"")",Chrome 127.0.0.0,,,21-08-2024 05:03:56,21-08-2024 05:03:56,0.033s,PASSED
+index = 2,Chrome 127.0.0.0,,,21-08-2024 05:03:56,21-08-2024 05:03:56,0.005s,PASSED
+"userName = data.getValue(""userName"", index)",Chrome 127.0.0.0,,,21-08-2024 05:03:56,21-08-2024 05:03:56,0.003s,PASSED
+"Password = data.getValue(""Password"", index)",Chrome 127.0.0.0,,,21-08-2024 05:03:56,21-08-2024 05:03:56,0.003s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,21-08-2024 05:03:56,21-08-2024 05:03:57,0.719s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/"")",Chrome 127.0.0.0,,,21-08-2024 05:03:57,21-08-2024 05:03:58,1.357s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_HTC One M9""))",Chrome 127.0.0.0,,,21-08-2024 05:03:58,21-08-2024 05:04:00,1.917s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 05:04:00,21-08-2024 05:04:01,1.212s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Home (current)""))",Chrome 127.0.0.0,,,21-08-2024 05:04:01,21-08-2024 05:04:03,1.451s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/button_Next""))",Chrome 127.0.0.0,,,21-08-2024 05:04:03,21-08-2024 05:04:04,0.900s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Dell i7 8gb""))",Chrome 127.0.0.0,,,21-08-2024 05:04:04,21-08-2024 05:04:05,1.514s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 05:04:05,21-08-2024 05:04:06,0.874s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Home (current)""))",Chrome 127.0.0.0,,,21-08-2024 05:04:06,21-08-2024 05:04:06,0.486s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Sony vaio i5""))",Chrome 127.0.0.0,,,21-08-2024 05:04:06,21-08-2024 05:04:08,1.578s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 05:04:08,21-08-2024 05:04:10,1.477s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Cart""))",Chrome 127.0.0.0,,,21-08-2024 05:04:10,21-08-2024 05:04:11,1.532s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Delete""), 5, STOP_ON_FAILURE)",Chrome 127.0.0.0,,,21-08-2024 05:04:11,21-08-2024 05:04:13,2.110s,PASSED
+"click(findTestObject(""Object Repository/AddProduct/Page_STORE/a_Delete""), OPTIONAL)",Chrome 127.0.0.0,,,21-08-2024 05:04:13,21-08-2024 05:04:13,0.211s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,21-08-2024 05:04:13,21-08-2024 05:04:14,0.207s,PASSED

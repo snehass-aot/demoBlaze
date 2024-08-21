@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Totalprice" time="26.809" tests="1" failures="0" errors="0">
+   <testsuite name="Totalprice" tests="1" failures="0" errors="0" time="26.809" skipped="0" timestamp="21-08-2024T05:24:39" hostname="aotir - host.docker.internal" id="Test Suites/Totalprice">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\aotir\\git\\demoBlaze\\Reports\\20240821_052435\\Totalprice\\20240821_052435"/>
+         <property name="logFiles" value="C:\\Users\\aotir\\git\\demoBlaze\\Reports\\20240821_052435\\Totalprice\\20240821_052435\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aotir - host.docker.internal"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.150"/>
+         <property name="sessionId" value="6f116bd846beb75d0cf0c207ff9d1fa3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TotalPrice" time="26.611" classname="Test Cases/TotalPrice" status="PASSED">
+         <system-out><![CDATA[21-08-2024T05:24:39 - [TEST_CASE][PASSED] - Test Cases/TotalPrice: Test Cases/TotalPrice
+
+21-08-2024T05:24:40 - [TEST_STEP][PASSED] - data = findTestData("LoginData/LoginData"): null
+
+21-08-2024T05:24:40 - [TEST_STEP][PASSED] - index = 2: null
+
+21-08-2024T05:24:40 - [TEST_STEP][PASSED] - userName = data.getValue("userName", index): null
+
+21-08-2024T05:24:40 - [TEST_STEP][PASSED] - Password = data.getValue("Password", index): null
+
+21-08-2024T05:24:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-08-2024T05:24:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-08-2024T05:24:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-08-2024T05:24:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-08-2024T05:24:43 - [TEST_STEP][PASSED] - navigateToUrl("https://www.demoblaze.com/"): Navigate to 'https://www.demoblaze.com/' successfully
+
+21-08-2024T05:24:44 - [MESSAGE][PASSED] - Navigate to 'https://www.demoblaze.com/' successfully
+
+21-08-2024T05:24:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Total price/Page_STORE/a_Log in")): Object: 'Object Repository/Total price/Page_STORE/a_Log in' is clicked on
+
+21-08-2024T05:24:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Total price/Page_STORE/a_Log in' is clicked on
+
+21-08-2024T05:24:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Total price/Page_STORE/input_Username_loginusername"), userName): Text 'snehassaot' is set on object 'Object Repository/Total price/Page_STORE/input_Username_loginusername'
+
+21-08-2024T05:24:46 - [MESSAGE][PASSED] - Text 'snehassaot' is set on object 'Object Repository/Total price/Page_STORE/input_Username_loginusername'
+
+21-08-2024T05:24:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Total price/Page_STORE/input_Password_loginpassword"), Password): Text '12345' is set on object 'Object Repository/Total price/Page_STORE/input_Password_loginpassword'
+
+21-08-2024T05:24:47 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Total price/Page_STORE/input_Password_loginpassword'
+
+21-08-2024T05:24:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Total price/Page_STORE/button_Log in")): Object: 'Object Repository/Total price/Page_STORE/button_Log in' is clicked on
+
+21-08-2024T05:24:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Total price/Page_STORE/button_Log in' is clicked on
+
+21-08-2024T05:24:47 - [TEST_STEP][PASSED] - orgnlPrice1 = getText(findTestObject("Object Repository/Total price/Page_STORE/h5_700")): Text of object 'Object Repository/Total price/Page_STORE/h5_700' is: '$700'
+
+21-08-2024T05:24:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Total price/Page_STORE/h5_700' is: '$700'
+
+21-08-2024T05:24:49 - [TEST_STEP][PASSED] - orgnlPrice2 = getText(findTestObject("Object Repository/Total price/Page_STORE/h5_790")): Text of object 'Object Repository/Total price/Page_STORE/h5_790' is: '$790'
+
+21-08-2024T05:24:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/Total price/Page_STORE/h5_790' is: '$790'
+
+21-08-2024T05:24:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Total price/Page_STORE/a_HTC One M9")): Object: 'Object Repository/Total price/Page_STORE/a_HTC One M9' is clicked on
+
+21-08-2024T05:24:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Total price/Page_STORE/a_HTC One M9' is clicked on
+
+21-08-2024T05:24:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Total price/Page_STORE/a_Add to cart")): Object: 'Object Repository/Total price/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T05:24:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Total price/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T05:24:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Total price/Page_STORE/a_Home (current)")): Object: 'Object Repository/Total price/Page_STORE/a_Home (current)' is clicked on
+
+21-08-2024T05:24:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Total price/Page_STORE/a_Home (current)' is clicked on
+
+21-08-2024T05:24:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Total price/Page_STORE/a_Sony vaio i5")): Object: 'Object Repository/Total price/Page_STORE/a_Sony vaio i5' is clicked on
+
+21-08-2024T05:24:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Total price/Page_STORE/a_Sony vaio i5' is clicked on
+
+21-08-2024T05:24:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Total price/Page_STORE/a_Add to cart")): Object: 'Object Repository/Total price/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T05:24:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Total price/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T05:24:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Total price/Page_STORE/a_Home (current)")): Object: 'Object Repository/Total price/Page_STORE/a_Home (current)' is clicked on
+
+21-08-2024T05:24:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Total price/Page_STORE/a_Home (current)' is clicked on
+
+21-08-2024T05:24:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Total price/Page_STORE/button_Next")): Object: 'Object Repository/Total price/Page_STORE/button_Next' is clicked on
+
+21-08-2024T05:24:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Total price/Page_STORE/button_Next' is clicked on
+
+21-08-2024T05:24:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Total price/Page_STORE/a_Dell i7 8gb")): Object: 'Object Repository/Total price/Page_STORE/a_Dell i7 8gb' is clicked on
+
+21-08-2024T05:25:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Total price/Page_STORE/a_Dell i7 8gb' is clicked on
+
+21-08-2024T05:25:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Total price/Page_STORE/a_Add to cart")): Object: 'Object Repository/Total price/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T05:25:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Total price/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T05:25:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Total price/Page_STORE/a_Cart")): Object: 'Object Repository/Total price/Page_STORE/a_Cart' is clicked on
+
+21-08-2024T05:25:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Total price/Page_STORE/a_Cart' is clicked on
+
+21-08-2024T05:25:03 - [TEST_STEP][PASSED] - priceElements = findWebElements(findTestObject("Object Repository/Total price/Page_STORE/h3_2190"), 5).collect({ -> ... }): Found web elements by test object Object Repository/Total price/Page_STORE/h3_2190
+
+21-08-2024T05:25:05 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Total price/Page_STORE/h3_2190
+
+21-08-2024T05:25:05 - [TEST_STEP][PASSED] - prices = priceElements.collect({ -> ... }): null
+
+21-08-2024T05:25:06 - [TEST_STEP][PASSED] - totalSum = prices.sum(): null
+
+21-08-2024T05:25:06 - [TEST_STEP][PASSED] - println("Total sum of products:$" + totalSum): null
+
+21-08-2024T05:25:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-08-2024T05:25:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-08-2024T05:24:39 - [TEST_SUITE][PASSED] - Totalprice: Test Cases/TotalPrice]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

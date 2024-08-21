@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PriceofProduct,Chrome 127.0.0.0,,,21-08-2024 05:13:37,21-08-2024 05:13:44,6.911s,FAILED
+,,,,,,,
+Test Cases/PriceOfProducts,Chrome 127.0.0.0,,,21-08-2024 05:13:37,21-08-2024 05:13:44,6.737s,FAILED
+"data = findTestData(""LoginData/LoginData"")",Chrome 127.0.0.0,,,21-08-2024 05:13:37,21-08-2024 05:13:38,0.502s,PASSED
+index = 2,Chrome 127.0.0.0,,,21-08-2024 05:13:38,21-08-2024 05:13:38,0.003s,PASSED
+"userName = data.getValue(""userName"", index)",Chrome 127.0.0.0,,,21-08-2024 05:13:38,21-08-2024 05:13:38,0.044s,PASSED
+"Password = data.getValue(""Password"", index)",Chrome 127.0.0.0,,,21-08-2024 05:13:38,21-08-2024 05:13:38,0.038s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,21-08-2024 05:13:38,21-08-2024 05:13:40,1.699s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/"")",Chrome 127.0.0.0,,,21-08-2024 05:13:40,21-08-2024 05:13:41,1.531s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_Log in""))",Chrome 127.0.0.0,,,21-08-2024 05:13:41,21-08-2024 05:13:42,1.034s,PASSED
+"setText(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/input_Username_loginusername""), userName)",Chrome 127.0.0.0,,,21-08-2024 05:13:42,21-08-2024 05:13:43,0.939s,PASSED
+"setText(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/input_Password_loginpassword""), Password)",Chrome 127.0.0.0,,,21-08-2024 05:13:43,21-08-2024 05:13:44,0.575s,FAILED

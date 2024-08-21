@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Totalprice,Chrome 127.0.0.0,,,21-08-2024 05:24:39,21-08-2024 05:25:06,26.809s,PASSED
+,,,,,,,
+Test Cases/TotalPrice,Chrome 127.0.0.0,,,21-08-2024 05:24:39,21-08-2024 05:25:06,26.611s,PASSED
+"data = findTestData(""LoginData/LoginData"")",Chrome 127.0.0.0,,,21-08-2024 05:24:40,21-08-2024 05:24:40,0.558s,PASSED
+index = 2,Chrome 127.0.0.0,,,21-08-2024 05:24:40,21-08-2024 05:24:40,0.004s,PASSED
+"userName = data.getValue(""userName"", index)",Chrome 127.0.0.0,,,21-08-2024 05:24:40,21-08-2024 05:24:40,0.052s,PASSED
+"Password = data.getValue(""Password"", index)",Chrome 127.0.0.0,,,21-08-2024 05:24:40,21-08-2024 05:24:40,0.031s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,21-08-2024 05:24:40,21-08-2024 05:24:43,2.156s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/"")",Chrome 127.0.0.0,,,21-08-2024 05:24:43,21-08-2024 05:24:44,1.490s,PASSED
+"click(findTestObject(""Object Repository/Total price/Page_STORE/a_Log in""))",Chrome 127.0.0.0,,,21-08-2024 05:24:44,21-08-2024 05:24:45,1.325s,PASSED
+"setText(findTestObject(""Object Repository/Total price/Page_STORE/input_Username_loginusername""), userName)",Chrome 127.0.0.0,,,21-08-2024 05:24:45,21-08-2024 05:24:46,1.030s,PASSED
+"setText(findTestObject(""Object Repository/Total price/Page_STORE/input_Password_loginpassword""), Password)",Chrome 127.0.0.0,,,21-08-2024 05:24:46,21-08-2024 05:24:47,0.659s,PASSED
+"click(findTestObject(""Object Repository/Total price/Page_STORE/button_Log in""))",Chrome 127.0.0.0,,,21-08-2024 05:24:47,21-08-2024 05:24:47,0.341s,PASSED
+"orgnlPrice1 = getText(findTestObject(""Object Repository/Total price/Page_STORE/h5_700""))",Chrome 127.0.0.0,,,21-08-2024 05:24:47,21-08-2024 05:24:49,2.003s,PASSED
+"orgnlPrice2 = getText(findTestObject(""Object Repository/Total price/Page_STORE/h5_790""))",Chrome 127.0.0.0,,,21-08-2024 05:24:49,21-08-2024 05:24:50,0.285s,PASSED
+"click(findTestObject(""Object Repository/Total price/Page_STORE/a_HTC One M9""))",Chrome 127.0.0.0,,,21-08-2024 05:24:50,21-08-2024 05:24:51,0.982s,PASSED
+"click(findTestObject(""Object Repository/Total price/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 05:24:51,21-08-2024 05:24:52,1.136s,PASSED
+"click(findTestObject(""Object Repository/Total price/Page_STORE/a_Home (current)""))",Chrome 127.0.0.0,,,21-08-2024 05:24:52,21-08-2024 05:24:54,1.708s,PASSED
+"click(findTestObject(""Object Repository/Total price/Page_STORE/a_Sony vaio i5""))",Chrome 127.0.0.0,,,21-08-2024 05:24:54,21-08-2024 05:24:56,2.099s,PASSED
+"click(findTestObject(""Object Repository/Total price/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 05:24:56,21-08-2024 05:24:57,0.871s,PASSED
+"click(findTestObject(""Object Repository/Total price/Page_STORE/a_Home (current)""))",Chrome 127.0.0.0,,,21-08-2024 05:24:57,21-08-2024 05:24:57,0.834s,PASSED
+"click(findTestObject(""Object Repository/Total price/Page_STORE/button_Next""))",Chrome 127.0.0.0,,,21-08-2024 05:24:57,21-08-2024 05:24:58,0.895s,PASSED
+"click(findTestObject(""Object Repository/Total price/Page_STORE/a_Dell i7 8gb""))",Chrome 127.0.0.0,,,21-08-2024 05:24:58,21-08-2024 05:25:00,1.707s,PASSED
+"click(findTestObject(""Object Repository/Total price/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 05:25:00,21-08-2024 05:25:01,1.506s,PASSED
+"click(findTestObject(""Object Repository/Total price/Page_STORE/a_Cart""))",Chrome 127.0.0.0,,,21-08-2024 05:25:01,21-08-2024 05:25:03,1.867s,PASSED
+"priceElements = findWebElements(findTestObject(""Object Repository/Total price/Page_STORE/h3_2190""), 5).collect({ -> ... })",Chrome 127.0.0.0,,,21-08-2024 05:25:03,21-08-2024 05:25:05,2.156s,PASSED
+prices = priceElements.collect({ -> ... }),Chrome 127.0.0.0,,,21-08-2024 05:25:05,21-08-2024 05:25:06,0.011s,PASSED
+totalSum = prices.sum(),Chrome 127.0.0.0,,,21-08-2024 05:25:06,21-08-2024 05:25:06,0.004s,PASSED
+"println(""Total sum of products:$"" + totalSum)",Chrome 127.0.0.0,,,21-08-2024 05:25:06,21-08-2024 05:25:06,0.007s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,21-08-2024 05:25:06,21-08-2024 05:25:06,0.370s,PASSED
