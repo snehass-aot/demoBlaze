@@ -38,3 +38,6 @@ WebUI.click(findTestObject('Object Repository/AddToCart/Page_STORE/a_Cart'))
 WebUI.verifyElementPresent(findTestObject('Object Repository/AddToCart/Page_STORE/a_Delete'), 5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
+
+
+

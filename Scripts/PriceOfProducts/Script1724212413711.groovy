@@ -48,8 +48,6 @@ WebUI.click(findTestObject('Object Repository/PriceOfProducts/Page_STORE/a_Add t
 
 WebUI.click(findTestObject('Object Repository/PriceOfProducts/Page_STORE/a_Home (current)'))
 
-WebUI.click(findTestObject('Object Repository/PriceOfProducts/Page_STORE/h5_790'))
-
 WebUI.click(findTestObject('Object Repository/PriceOfProducts/Page_STORE/a_Sony vaio i5'))
 
 WebUI.click(findTestObject('Object Repository/PriceOfProducts/Page_STORE/a_Add to cart'))

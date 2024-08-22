@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='tbodyid']/div[8]/div/div/h5</value>
+         <value>//*[@id=&quot;tbodyid&quot;]/div[8]/div/div/h5</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h5</value>
-      <webElementGuid>9fd6d7aa-f5d0-4711-aad1-07c42abf11a2</webElementGuid>
+      <webElementGuid>e5a76bf7-345d-4e55-9fdc-e1bec19d4559</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>$790</value>
-      <webElementGuid>b4df12c7-0756-4b84-87f0-2dc3603a7863</webElementGuid>
+      <webElementGuid>47f13a79-4484-4055-8552-ee1ed818bbdf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tbodyid&quot;)/div[@class=&quot;col-lg-4 col-md-6 mb-4&quot;]/div[@class=&quot;card h-100&quot;]/div[@class=&quot;card-block&quot;]/h5[1]</value>
-      <webElementGuid>f811e7a6-dad7-4c3c-bb83-80cbf9dabc12</webElementGuid>
+      <webElementGuid>576a316d-3812-4541-8bd1-3298ac5fe423</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='tbodyid']/div[8]/div/div/h5</value>
-      <webElementGuid>feccb7a7-8c10-4899-bb25-5ebeca574716</webElementGuid>
+      <webElementGuid>bc2a878c-5984-4560-a0e3-331bb6f0efce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sony vaio i5'])[1]/following::h5[1]</value>
-      <webElementGuid>6de7a6fb-1382-4559-88ae-512d9c40f30c</webElementGuid>
+      <webElementGuid>6128d144-8b5a-47d9-ad49-7894ad976af3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$700'])[1]/following::h5[1]</value>
-      <webElementGuid>3cfa92d3-8fce-44fe-ab18-e01d8921b1a7</webElementGuid>
+      <webElementGuid>6c55334c-1606-4899-9278-6cea7b1b747c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sony vaio i7'])[1]/preceding::h5[1]</value>
-      <webElementGuid>646e192c-75e3-4687-a18a-6c276aa9628c</webElementGuid>
+      <webElementGuid>00a8ab63-4e3a-4ae8-9d96-9e25a782cf27</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$790'])[3]/preceding::h5[1]</value>
-      <webElementGuid>56511bcd-0352-4192-a18a-9e51c3c6f4ad</webElementGuid>
+      <webElementGuid>76f28958-d2fc-42de-904b-506c26506577</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/div/div/h5</value>
-      <webElementGuid>77b3fa94-649b-4d24-8a1a-20b98bbeae51</webElementGuid>
+      <webElementGuid>d36f4d9c-545c-473e-a1a4-71a1fbb124fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h5[(text() = '$790' or . = '$790')]</value>
-      <webElementGuid>ebf387d3-51e1-4f4e-b35c-22bf4fc9d29b</webElementGuid>
+      <webElementGuid>d36172fa-9d87-4eab-8b43-48a95acf5beb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
