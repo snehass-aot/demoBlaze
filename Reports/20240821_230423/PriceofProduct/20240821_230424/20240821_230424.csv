@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PriceofProduct,Chrome 127.0.0.0,,,21-08-2024 23:04:29,21-08-2024 23:05:00,31.372s,FAILED
+,,,,,,,
+Test Cases/PriceOfProducts,Chrome 127.0.0.0,,,21-08-2024 23:04:29,21-08-2024 23:05:00,31.189s,FAILED
+"openBrowser("""")",Chrome 127.0.0.0,,,21-08-2024 23:04:29,21-08-2024 23:04:31,1.813s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/"")",Chrome 127.0.0.0,,,21-08-2024 23:04:31,21-08-2024 23:04:33,1.365s,PASSED
+"orgnlPrice1 = getText(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/h5_700""))",Chrome 127.0.0.0,,,21-08-2024 23:04:33,21-08-2024 23:05:00,27.655s,FAILED

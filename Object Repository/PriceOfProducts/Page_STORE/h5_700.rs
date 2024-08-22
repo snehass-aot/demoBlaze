@@ -6,12 +6,11 @@
    <elementGuidId>a10cc199-942d-4c8e-bad4-bb59f07dec46</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;tbodyid&quot;]/div[7]/div/div/h5</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='tbodyid']/div[7]/div/div/h5</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h5</value>
-      <webElementGuid>8d1c340a-be35-42d9-9d2d-3d2f1736e0ac</webElementGuid>
+      <webElementGuid>963db570-544a-4998-9340-03ecea770198</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>$700</value>
-      <webElementGuid>524b4fd9-d398-4f1a-8367-8aba341b4295</webElementGuid>
+      <webElementGuid>b3c0bbe5-0a96-4e2a-92f1-0d83774a9d52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tbodyid&quot;)/div[@class=&quot;col-lg-4 col-md-6 mb-4&quot;]/div[@class=&quot;card h-100&quot;]/div[@class=&quot;card-block&quot;]/h5[1]</value>
-      <webElementGuid>48de42a7-a2e2-4e04-8246-627ee5f78aed</webElementGuid>
+      <webElementGuid>7e0af1c3-8c26-4be6-948f-10d58e1c19af</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='tbodyid']/div[7]/div/div/h5</value>
-      <webElementGuid>66a732da-6718-49ec-94ed-1d6cb56e26f0</webElementGuid>
+      <webElementGuid>628f5ec0-3122-4da8-840a-e9118ce9fe0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='HTC One M9'])[1]/following::h5[1]</value>
-      <webElementGuid>bc6fa936-699e-4d2b-a272-0c9a4f38102e</webElementGuid>
+      <webElementGuid>42d6133e-b4e1-48dd-9186-1c0b788de94d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$320'])[1]/following::h5[1]</value>
-      <webElementGuid>81539166-d911-463a-9635-3e26af1eccc2</webElementGuid>
+      <webElementGuid>8d34b367-f615-4e5b-b598-1aeb016c2da1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sony vaio i5'])[1]/preceding::h5[1]</value>
-      <webElementGuid>c50e48d0-3de7-4730-81d5-98739607349b</webElementGuid>
+      <webElementGuid>1626b738-3b7f-40ab-98a6-620a7a9595e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$790'])[2]/preceding::h5[1]</value>
-      <webElementGuid>7ac24ba3-8353-4f82-923d-58144460a9ec</webElementGuid>
+      <webElementGuid>3cbc9ab3-5f65-497e-869c-85ddd1f61366</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='$700']/parent::*</value>
-      <webElementGuid>fd84b77d-497e-47af-b16c-e87742feef5c</webElementGuid>
+      <webElementGuid>4cec8941-d6bb-4a1e-b3bc-5b3d85306239</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/div/div/h5</value>
-      <webElementGuid>d013a28e-8026-4de2-b787-7a0158ecc7ff</webElementGuid>
+      <webElementGuid>6938abd8-88de-4a6d-bb9b-686dee444b87</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h5[(text() = '$700' or . = '$700')]</value>
-      <webElementGuid>ae06f9aa-7c72-4449-ad7d-43b87af48170</webElementGuid>
+      <webElementGuid>81cfe7d0-d797-466d-8db7-374249fa91b6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

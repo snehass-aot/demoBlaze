@@ -6,11 +6,11 @@
    <elementGuidId>8e37a6ca-313a-45fe-a405-a91544f8e072</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//*[@id=&quot;tbodyid&quot;]/div[8]/div/div/h5</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h5</value>
-      <webElementGuid>8c00faa5-dddb-4081-bf51-566e381f20f0</webElementGuid>
+      <webElementGuid>5cff8c07-6739-4c70-9d07-11a295107b76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>$790</value>
-      <webElementGuid>57955e84-8072-4d94-9d24-bb7c911b3784</webElementGuid>
+      <webElementGuid>3f404433-6556-4c79-a8ec-c379e052bf85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tbodyid&quot;)/div[@class=&quot;col-lg-4 col-md-6 mb-4&quot;]/div[@class=&quot;card h-100&quot;]/div[@class=&quot;card-block&quot;]/h5[1]</value>
-      <webElementGuid>e8e44a50-445a-41b6-8cfd-89c31e989353</webElementGuid>
+      <webElementGuid>5d1d0b17-a49f-47ce-b6f2-645cee24aa96</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='tbodyid']/div[8]/div/div/h5</value>
-      <webElementGuid>50bd8744-803d-4f8b-ba4e-3580bfc01fed</webElementGuid>
+      <webElementGuid>aa700b3c-1920-4392-ae54-9f3e5179b106</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sony vaio i5'])[1]/following::h5[1]</value>
-      <webElementGuid>95e58b2c-d612-4c40-bdea-6116bb2fe43e</webElementGuid>
+      <webElementGuid>dc287948-8d40-4065-8616-ac39cbd767ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$700'])[1]/following::h5[1]</value>
-      <webElementGuid>42375782-11e0-4849-920d-cd30597fabaa</webElementGuid>
+      <webElementGuid>89c585a6-0e9d-4a9f-901c-f56c5d970d23</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sony vaio i7'])[1]/preceding::h5[1]</value>
-      <webElementGuid>dc57392c-b406-42f2-bb0a-598c0e39bcb7</webElementGuid>
+      <webElementGuid>9b052d97-8344-41ba-9cc9-05ea50588299</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$790'])[3]/preceding::h5[1]</value>
-      <webElementGuid>fff7080d-8544-4368-a48b-7c90d0c88ad7</webElementGuid>
+      <webElementGuid>68ec30a0-514c-483f-9f18-8e575799451c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/div/div/h5</value>
-      <webElementGuid>293a6a1c-8272-4438-bf38-c800554ae30e</webElementGuid>
+      <webElementGuid>ef57ec12-2b88-4a42-9b22-3c293ddcf4ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h5[(text() = '$790' or . = '$790')]</value>
-      <webElementGuid>7172434c-b548-4658-bfe5-a569824d226c</webElementGuid>
+      <webElementGuid>5699ace7-0a86-4a00-a6c8-fc6f99ea311c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

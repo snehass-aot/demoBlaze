@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PriceofProduct,Chrome 127.0.0.0,,,21-08-2024 23:26:47,21-08-2024 23:27:08,21.108s,FAILED
+,,,,,,,
+Test Cases/PriceOfProducts,Chrome 127.0.0.0,,,21-08-2024 23:26:47,21-08-2024 23:27:08,20.927s,FAILED
+"openBrowser("""")",Chrome 127.0.0.0,,,21-08-2024 23:26:47,21-08-2024 23:26:49,1.870s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/"")",Chrome 127.0.0.0,,,21-08-2024 23:26:49,21-08-2024 23:26:50,1.401s,PASSED
+"orgnlPrice1 = getText(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/h5_700""))",Chrome 127.0.0.0,,,21-08-2024 23:26:50,21-08-2024 23:26:53,2.974s,PASSED
+"orgnlPrice2 = getText(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/h5_790""))",Chrome 127.0.0.0,,,21-08-2024 23:26:53,21-08-2024 23:26:54,0.303s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_HTC One M9""))",Chrome 127.0.0.0,,,21-08-2024 23:26:54,21-08-2024 23:26:55,0.985s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 23:26:55,21-08-2024 23:26:56,1.125s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_Home (current)""))",Chrome 127.0.0.0,,,21-08-2024 23:26:56,21-08-2024 23:26:57,1.042s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_Sony vaio i5""))",Chrome 127.0.0.0,,,21-08-2024 23:26:57,21-08-2024 23:26:58,1.250s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 23:26:58,21-08-2024 23:26:59,0.760s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_Home (current)""))",Chrome 127.0.0.0,,,21-08-2024 23:26:59,21-08-2024 23:26:59,0.479s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/button_Next""))",Chrome 127.0.0.0,,,21-08-2024 23:26:59,21-08-2024 23:27:00,0.892s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_Dell i7 8gb""))",Chrome 127.0.0.0,,,21-08-2024 23:27:00,21-08-2024 23:27:02,1.906s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 23:27:02,21-08-2024 23:27:04,1.599s,PASSED
+"click(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/a_Cart""))",Chrome 127.0.0.0,,,21-08-2024 23:27:04,21-08-2024 23:27:05,1.682s,PASSED
+"dsplyPrice1 = getText(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/td_700""))",Chrome 127.0.0.0,,,21-08-2024 23:27:05,21-08-2024 23:27:07,2.029s,PASSED
+"dsplyPrice2 = getText(findTestObject(""Object Repository/PriceOfProducts/Page_STORE/td_790""))",Chrome 127.0.0.0,,,21-08-2024 23:27:07,21-08-2024 23:27:08,0.263s,PASSED
+"orgnlPrice1 = orgnlPrice1.replace(""$"", """")",Chrome 127.0.0.0,,,21-08-2024 23:27:08,21-08-2024 23:27:08,0.006s,PASSED
+assert orgnlPrice1 == dsplyPrice1,Chrome 127.0.0.0,,,21-08-2024 23:27:08,21-08-2024 23:27:08,0.019s,FAILED

@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PurchasedItems,Chrome 127.0.0.0,,,21-08-2024 23:32:00,21-08-2024 23:32:42,42.561s,PASSED
+,,,,,,,
+Test Cases/PurchaseItems,Chrome 127.0.0.0,,,21-08-2024 23:32:00,21-08-2024 23:32:25,24.453s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,21-08-2024 23:32:00,21-08-2024 23:32:02,1.881s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/"")",Chrome 127.0.0.0,,,21-08-2024 23:32:02,21-08-2024 23:32:03,1.218s,PASSED
+"click(findTestObject(""Object Repository/PurchaseItems/Page_STORE/a_Samsung galaxy s6""))",Chrome 127.0.0.0,,,21-08-2024 23:32:03,21-08-2024 23:32:05,1.834s,PASSED
+"click(findTestObject(""Object Repository/PurchaseItems/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 23:32:05,21-08-2024 23:32:07,1.233s,PASSED
+"click(findTestObject(""Object Repository/PurchaseItems/Page_STORE/a_Home (current)""))",Chrome 127.0.0.0,,,21-08-2024 23:32:07,21-08-2024 23:32:08,1.141s,PASSED
+"click(findTestObject(""Object Repository/PurchaseItems/Page_STORE/a_Sony vaio i5""))",Chrome 127.0.0.0,,,21-08-2024 23:32:08,21-08-2024 23:32:09,1.260s,PASSED
+"click(findTestObject(""Object Repository/PurchaseItems/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 23:32:09,21-08-2024 23:32:10,0.970s,PASSED
+"click(findTestObject(""Object Repository/PurchaseItems/Page_STORE/a_Home (current)""))",Chrome 127.0.0.0,,,21-08-2024 23:32:10,21-08-2024 23:32:10,0.510s,PASSED
+"click(findTestObject(""Object Repository/PurchaseItems/Page_STORE/button_Next""))",Chrome 127.0.0.0,,,21-08-2024 23:32:10,21-08-2024 23:32:11,0.886s,PASSED
+"click(findTestObject(""Object Repository/PurchaseItems/Page_STORE/a_Dell i7 8gb""))",Chrome 127.0.0.0,,,21-08-2024 23:32:11,21-08-2024 23:32:13,2.018s,PASSED
+"click(findTestObject(""Object Repository/PurchaseItems/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 23:32:13,21-08-2024 23:32:15,1.495s,PASSED
+"click(findTestObject(""Object Repository/PurchaseItems/Page_STORE/a_Cart""))",Chrome 127.0.0.0,,,21-08-2024 23:32:15,21-08-2024 23:32:16,1.392s,PASSED
+"click(findTestObject(""Object Repository/PurchaseItems/Page_STORE/button_Place Order""))",Chrome 127.0.0.0,,,21-08-2024 23:32:16,21-08-2024 23:32:18,1.955s,PASSED
+"setText(findTestObject(""Object Repository/PurchaseItems/Page_STORE/input_Name_name""), ""sneha"")",Chrome 127.0.0.0,,,21-08-2024 23:32:18,21-08-2024 23:32:19,0.884s,PASSED
+"setText(findTestObject(""Object Repository/PurchaseItems/Page_STORE/input_Country_country""), ""india"")",Chrome 127.0.0.0,,,21-08-2024 23:32:19,21-08-2024 23:32:20,0.592s,PASSED
+"setText(findTestObject(""Object Repository/PurchaseItems/Page_STORE/input_City_city""), ""Trivian"")",Chrome 127.0.0.0,,,21-08-2024 23:32:20,21-08-2024 23:32:20,0.595s,PASSED
+"setText(findTestObject(""Object Repository/PurchaseItems/Page_STORE/input_Credit card_card""), ""123456789"")",Chrome 127.0.0.0,,,21-08-2024 23:32:20,21-08-2024 23:32:21,0.619s,PASSED
+"setText(findTestObject(""Object Repository/PurchaseItems/Page_STORE/input_Month_month""), ""June"")",Chrome 127.0.0.0,,,21-08-2024 23:32:21,21-08-2024 23:32:21,0.599s,PASSED
+"setText(findTestObject(""Object Repository/PurchaseItems/Page_STORE/input_Year_year""), ""2024"")",Chrome 127.0.0.0,,,21-08-2024 23:32:21,21-08-2024 23:32:22,0.587s,PASSED
+"click(findTestObject(""Object Repository/PurchaseItems/Page_STORE/button_Purchase""))",Chrome 127.0.0.0,,,21-08-2024 23:32:22,21-08-2024 23:32:22,0.342s,PASSED
+"click(findTestObject(""Object Repository/PurchaseItems/Page_STORE/button_OK""))",Chrome 127.0.0.0,,,21-08-2024 23:32:22,21-08-2024 23:32:24,1.919s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,21-08-2024 23:32:24,21-08-2024 23:32:25,0.225s,PASSED
+,,,,,,,
+Test Cases/PurchaseItemsWithoutFillTheForm,Chrome 127.0.0.0,,,21-08-2024 23:32:25,21-08-2024 23:32:42,17.933s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,21-08-2024 23:32:25,21-08-2024 23:32:25,0.753s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/"")",Chrome 127.0.0.0,,,21-08-2024 23:32:25,21-08-2024 23:32:27,1.238s,PASSED
+"click(findTestObject(""Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_HTC One M9""))",Chrome 127.0.0.0,,,21-08-2024 23:32:27,21-08-2024 23:32:29,2.453s,PASSED
+"click(findTestObject(""Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 23:32:29,21-08-2024 23:32:30,1.111s,PASSED
+"click(findTestObject(""Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Home (current)""))",Chrome 127.0.0.0,,,21-08-2024 23:32:30,21-08-2024 23:32:31,1.017s,PASSED
+"click(findTestObject(""Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Sony vaio i5""))",Chrome 127.0.0.0,,,21-08-2024 23:32:31,21-08-2024 23:32:32,1.207s,PASSED
+"click(findTestObject(""Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 23:32:32,21-08-2024 23:32:33,0.768s,PASSED
+"click(findTestObject(""Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Home (current)""))",Chrome 127.0.0.0,,,21-08-2024 23:32:33,21-08-2024 23:32:34,0.688s,PASSED
+"click(findTestObject(""Object Repository/PurchaseWithoutFillTheForm/Page_STORE/button_Next""))",Chrome 127.0.0.0,,,21-08-2024 23:32:34,21-08-2024 23:32:35,0.672s,PASSED
+"click(findTestObject(""Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Dell i7 8gb""))",Chrome 127.0.0.0,,,21-08-2024 23:32:35,21-08-2024 23:32:36,1.851s,PASSED
+"click(findTestObject(""Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 23:32:36,21-08-2024 23:32:38,1.701s,PASSED
+"click(findTestObject(""Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Cart""))",Chrome 127.0.0.0,,,21-08-2024 23:32:38,21-08-2024 23:32:40,1.803s,PASSED
+"click(findTestObject(""Object Repository/PurchaseWithoutFillTheForm/Page_STORE/button_Place Order""))",Chrome 127.0.0.0,,,21-08-2024 23:32:40,21-08-2024 23:32:42,1.817s,PASSED
+"click(findTestObject(""Object Repository/PurchaseWithoutFillTheForm/Page_STORE/button_Purchase""))",Chrome 127.0.0.0,,,21-08-2024 23:32:42,21-08-2024 23:32:42,0.488s,PASSED
+"click(findTestObject(""Object Repository/PurchaseWithoutFillTheForm/Page_STORE/button_Close""))",Chrome 127.0.0.0,,,21-08-2024 23:32:42,21-08-2024 23:32:42,0.090s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,21-08-2024 23:32:42,21-08-2024 23:32:42,0.186s,PASSED

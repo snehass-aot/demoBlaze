@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PriceofProduct" time="19.465" tests="1" failures="1" errors="0">
+   <testsuite name="PriceofProduct" tests="1" failures="1" errors="0" time="19.465" skipped="0" timestamp="21-08-2024T23:19:25" hostname="aotir - DESKTOP-P1HQTDN" id="Test Suites/PriceofProduct">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\aotir\\git\\demoBlaze\\Reports\\20240821_231918\\PriceofProduct\\20240821_231919"/>
+         <property name="logFiles" value="C:\\Users\\aotir\\git\\demoBlaze\\Reports\\20240821_231918\\PriceofProduct\\20240821_231919\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aotir - DESKTOP-P1HQTDN"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="192.168.5.2"/>
+         <property name="sessionId" value="c8016566f7ad12c1c972bef4f86ba63b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/PriceOfProducts" time="19.297" classname="Test Cases/PriceOfProducts" status="FAILED">
+         <failure type="FAILED" message="Test Cases/PriceOfProducts FAILED.&#xa;Reason:&#xa;Assertion failed: &#xa;&#xa;assert orgnlPrice1 == dsplyPrice1&#xa;       |           |  |&#xa;       '700'       |  '790'&#xa;                   false&#xa;&#xa;	at PriceOfProducts.run(PriceOfProducts:71)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1724307559642.run(TempTestSuite1724307559642.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[21-08-2024T23:19:25 - [TEST_CASE][FAILED] - Test Cases/PriceOfProducts: Test Cases/PriceOfProducts FAILED.
+Reason:
+Assertion failed: 
+
+assert orgnlPrice1 == dsplyPrice1
+       |           |  |
+       '700'       |  '790'
+                   false
+
+	at PriceOfProducts.run(PriceOfProducts:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1724307559642.run(TempTestSuite1724307559642.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+21-08-2024T23:19:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-08-2024T23:19:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-08-2024T23:19:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-08-2024T23:19:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-08-2024T23:19:27 - [TEST_STEP][PASSED] - navigateToUrl("https://www.demoblaze.com/"): Navigate to 'https://www.demoblaze.com/' successfully
+
+21-08-2024T23:19:28 - [MESSAGE][PASSED] - Navigate to 'https://www.demoblaze.com/' successfully
+
+21-08-2024T23:19:28 - [TEST_STEP][PASSED] - orgnlPrice1 = getText(findTestObject("Object Repository/PriceOfProducts/Page_STORE/h5_700")): Text of object 'Object Repository/PriceOfProducts/Page_STORE/h5_700' is: '$700'
+
+21-08-2024T23:19:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/PriceOfProducts/Page_STORE/h5_700' is: '$700'
+
+21-08-2024T23:19:30 - [TEST_STEP][PASSED] - orgnlPrice2 = getText(findTestObject("Object Repository/PriceOfProducts/Page_STORE/h5_790")): Text of object 'Object Repository/PriceOfProducts/Page_STORE/h5_790' is: '$790'
+
+21-08-2024T23:19:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/PriceOfProducts/Page_STORE/h5_790' is: '$790'
+
+21-08-2024T23:19:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PriceOfProducts/Page_STORE/a_HTC One M9")): Object: 'Object Repository/PriceOfProducts/Page_STORE/a_HTC One M9' is clicked on
+
+21-08-2024T23:19:31 - [MESSAGE][PASSED] - Object: 'Object Repository/PriceOfProducts/Page_STORE/a_HTC One M9' is clicked on
+
+21-08-2024T23:19:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PriceOfProducts/Page_STORE/a_Add to cart")): Object: 'Object Repository/PriceOfProducts/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T23:19:32 - [MESSAGE][PASSED] - Object: 'Object Repository/PriceOfProducts/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T23:19:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PriceOfProducts/Page_STORE/a_Home (current)")): Object: 'Object Repository/PriceOfProducts/Page_STORE/a_Home (current)' is clicked on
+
+21-08-2024T23:19:34 - [MESSAGE][PASSED] - Object: 'Object Repository/PriceOfProducts/Page_STORE/a_Home (current)' is clicked on
+
+21-08-2024T23:19:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PriceOfProducts/Page_STORE/a_Sony vaio i5")): Object: 'Object Repository/PriceOfProducts/Page_STORE/a_Sony vaio i5' is clicked on
+
+21-08-2024T23:19:34 - [MESSAGE][PASSED] - Object: 'Object Repository/PriceOfProducts/Page_STORE/a_Sony vaio i5' is clicked on
+
+21-08-2024T23:19:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PriceOfProducts/Page_STORE/a_Add to cart")): Object: 'Object Repository/PriceOfProducts/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T23:19:35 - [MESSAGE][PASSED] - Object: 'Object Repository/PriceOfProducts/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T23:19:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PriceOfProducts/Page_STORE/a_Home (current)")): Object: 'Object Repository/PriceOfProducts/Page_STORE/a_Home (current)' is clicked on
+
+21-08-2024T23:19:36 - [MESSAGE][PASSED] - Object: 'Object Repository/PriceOfProducts/Page_STORE/a_Home (current)' is clicked on
+
+21-08-2024T23:19:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PriceOfProducts/Page_STORE/button_Next")): Object: 'Object Repository/PriceOfProducts/Page_STORE/button_Next' is clicked on
+
+21-08-2024T23:19:37 - [MESSAGE][PASSED] - Object: 'Object Repository/PriceOfProducts/Page_STORE/button_Next' is clicked on
+
+21-08-2024T23:19:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PriceOfProducts/Page_STORE/a_Dell i7 8gb")): Object: 'Object Repository/PriceOfProducts/Page_STORE/a_Dell i7 8gb' is clicked on
+
+21-08-2024T23:19:38 - [MESSAGE][PASSED] - Object: 'Object Repository/PriceOfProducts/Page_STORE/a_Dell i7 8gb' is clicked on
+
+21-08-2024T23:19:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PriceOfProducts/Page_STORE/a_Add to cart")): Object: 'Object Repository/PriceOfProducts/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T23:19:41 - [MESSAGE][PASSED] - Object: 'Object Repository/PriceOfProducts/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T23:19:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PriceOfProducts/Page_STORE/a_Cart")): Object: 'Object Repository/PriceOfProducts/Page_STORE/a_Cart' is clicked on
+
+21-08-2024T23:19:42 - [MESSAGE][PASSED] - Object: 'Object Repository/PriceOfProducts/Page_STORE/a_Cart' is clicked on
+
+21-08-2024T23:19:42 - [TEST_STEP][PASSED] - dsplyPrice1 = getText(findTestObject("Object Repository/PriceOfProducts/Page_STORE/td_700")): Text of object 'Object Repository/PriceOfProducts/Page_STORE/td_700' is: '790'
+
+21-08-2024T23:19:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/PriceOfProducts/Page_STORE/td_700' is: '790'
+
+21-08-2024T23:19:44 - [TEST_STEP][PASSED] - dsplyPrice2 = getText(findTestObject("Object Repository/PriceOfProducts/Page_STORE/td_790")): Text of object 'Object Repository/PriceOfProducts/Page_STORE/td_790' is: '700'
+
+21-08-2024T23:19:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/PriceOfProducts/Page_STORE/td_790' is: '700'
+
+21-08-2024T23:19:44 - [TEST_STEP][PASSED] - orgnlPrice1 = orgnlPrice1.replace("$", ""): null
+
+21-08-2024T23:19:44 - [TEST_STEP][FAILED] - assert orgnlPrice1 == dsplyPrice1: Test Cases/PriceOfProducts FAILED.
+Reason:
+Assertion failed: 
+
+assert orgnlPrice1 == dsplyPrice1
+       |           |  |
+       '700'       |  '790'
+                   false
+
+	at PriceOfProducts.run(PriceOfProducts:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1724307559642.run(TempTestSuite1724307559642.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+21-08-2024T23:19:44 - [MESSAGE][FAILED] - Test Cases/PriceOfProducts FAILED.
+Reason:
+Assertion failed: 
+
+assert orgnlPrice1 == dsplyPrice1
+       |           |  |
+       '700'       |  '790'
+                   false
+
+	at PriceOfProducts.run(PriceOfProducts:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1724307559642.run(TempTestSuite1724307559642.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[21-08-2024T23:19:25 - [TEST_CASE][FAILED] - Test Cases/PriceOfProducts: Test Cases/PriceOfProducts FAILED.
+Reason:
+Assertion failed: 
+
+assert orgnlPrice1 == dsplyPrice1
+       |           |  |
+       '700'       |  '790'
+                   false
+
+	at PriceOfProducts.run(PriceOfProducts:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1724307559642.run(TempTestSuite1724307559642.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-08-2024T23:19:25 - [TEST_SUITE][FAILED] - PriceofProduct: Test Cases/PriceOfProducts FAILED.
+Reason:
+Assertion failed: 
+
+assert orgnlPrice1 == dsplyPrice1
+       |           |  |
+       '700'       |  '790'
+                   false
+
+	at PriceOfProducts.run(PriceOfProducts:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1724307559642.run(TempTestSuite1724307559642.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[21-08-2024T23:19:25 - [TEST_SUITE][FAILED] - PriceofProduct: Test Cases/PriceOfProducts FAILED.
+Reason:
+Assertion failed: 
+
+assert orgnlPrice1 == dsplyPrice1
+       |           |  |
+       '700'       |  '790'
+                   false
+
+	at PriceOfProducts.run(PriceOfProducts:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1724307559642.run(TempTestSuite1724307559642.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>
