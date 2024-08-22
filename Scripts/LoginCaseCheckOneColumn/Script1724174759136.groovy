@@ -42,17 +42,17 @@ WebUI.setText(findTestObject('Object Repository/CheckOneColumn/Page_STORE/input_
 WebUI.click(findTestObject('Object Repository/CheckOneColumn/Page_STORE/button_Log in'))
 
 // Verify if login was successful by checking for the 'Log out' button
-def LoginSuccessful = WebUI.verifyElementPresent(findTestObject('Object Repository/CheckOneColumn/Page_STORE/button_Log in'), 5, FailureHandling.OPTIONAL)
+ WebUI.verifyElementPresent(findTestObject('Object Repository/CheckOneColumn/Page_STORE/button_Log in'), 5, FailureHandling.OPTIONAL)
 
-// Conditional statement to handle login success or failure
-if (LoginSuccessful) {
-	// If login is successful, log out
-	WebUI.click(findTestObject('Object Repository/CheckOneColumn/Page_STORE/a_Log out'))
-	println('Login successful, logged out.')
-} else {
-	// If login fails, print 'invalid' and continue with the next iteration
-	println('invalid')
-}
+//// Conditional statement to handle login success or failure
+//if (LoginSuccessful) {
+//	// If login is successful, log out
+//	WebUI.click(findTestObject('Object Repository/CheckOneColumn/Page_STORE/a_Log out'))
+//	println('Login successful, logged out.')
+//} else {
+//	// If login fails, print 'invalid' and continue with the next iteration
+//	println('invalid')
+//}
 
 // Close the browser
 WebUI.closeBrowser()

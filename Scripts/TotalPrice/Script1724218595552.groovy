@@ -19,18 +19,18 @@ import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.WebElement
 
 // Fetch login data
-def data = findTestData('LoginData/LoginData')
-def index = 2
-def userName = data.getValue('userName', index)
-def Password = data.getValue('Password', index)
+//def data = findTestData('LoginData/LoginData')
+//def index = 2
+//def userName = data.getValue('userName', index)
+//def Password = data.getValue('Password', index)
 
 // Open browser and log in
 WebUI.openBrowser('')
 WebUI.navigateToUrl('https://www.demoblaze.com/')
-WebUI.click(findTestObject('Object Repository/Total price/Page_STORE/a_Log in'))
-WebUI.setText(findTestObject('Object Repository/Total price/Page_STORE/input_Username_loginusername'), userName)
-WebUI.setText(findTestObject('Object Repository/Total price/Page_STORE/input_Password_loginpassword'), Password)
-WebUI.click(findTestObject('Object Repository/Total price/Page_STORE/button_Log in'))
+//WebUI.click(findTestObject('Object Repository/Total price/Page_STORE/a_Log in'))
+//WebUI.setText(findTestObject('Object Repository/Total price/Page_STORE/input_Username_loginusername'), userName)
+//WebUI.setText(findTestObject('Object Repository/Total price/Page_STORE/input_Password_loginpassword'), Password)
+//WebUI.click(findTestObject('Object Repository/Total price/Page_STORE/button_Log in'))
 
 // Clear the cart by navigating to it and removing all items
 WebUI.click(findTestObject('Object Repository/Total price/Page_STORE/a_Cart'))

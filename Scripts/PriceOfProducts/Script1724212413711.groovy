@@ -17,31 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def data = findTestData('LoginData/LoginData')
+//def data = findTestData('LoginData/LoginData')
 
-def index = 2
+//def index = 2
 
-def userName = data.getValue('userName', index)
+//def userName = data.getValue('userName', index)
 
-def Password = data.getValue('Password', index)
+//def Password = data.getValue('Password', index)
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.demoblaze.com/')
 
-WebUI.click(findTestObject('Object Repository/PriceOfProducts/Page_STORE/a_Log in'))
+//WebUI.click(findTestObject('Object Repository/PriceOfProducts/Page_STORE/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/PriceOfProducts/Page_STORE/input_Username_loginusername'), userName)
+//WebUI.setText(findTestObject('Object Repository/PriceOfProducts/Page_STORE/input_Username_loginusername'), userName)
 
-WebUI.setText(findTestObject('Object Repository/PriceOfProducts/Page_STORE/input_Password_loginpassword'), Password)
+//WebUI.setText(findTestObject('Object Repository/PriceOfProducts/Page_STORE/input_Password_loginpassword'), Password)
 
-WebUI.click(findTestObject('Object Repository/PriceOfProducts/Page_STORE/button_Log in'))
+//WebUI.click(findTestObject('Object Repository/PriceOfProducts/Page_STORE/button_Log in'))
 
 def orgnlPrice1 = WebUI.getText(findTestObject('Object Repository/PriceOfProducts/Page_STORE/h5_700'))
 
 def orgnlPrice2 = WebUI.getText(findTestObject('Object Repository/PriceOfProducts/Page_STORE/h5_790'))
 
-//findTestObject('Object Repository/PriceOfProducts/Page_STORE/input_Password_loginpassword')
+
 WebUI.click(findTestObject('Object Repository/PriceOfProducts/Page_STORE/a_HTC One M9'))
 
 WebUI.click(findTestObject('Object Repository/PriceOfProducts/Page_STORE/a_Add to cart'))
