@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ForLogin,Chrome 127.0.0.0,,,21-08-2024 23:42:03,21-08-2024 23:43:18,1m - 15.353s,PASSED
+,,,,,,,
+Test Cases/LoginCaseCheckOneColumn,Chrome 127.0.0.0,,,21-08-2024 23:42:04,21-08-2024 23:42:39,35.343s,PASSED
+"data = findTestData(""Data Files/LoginData/LoginData"")",Chrome 127.0.0.0,,,21-08-2024 23:42:05,21-08-2024 23:42:09,3.914s,PASSED
+index = 2,Chrome 127.0.0.0,,,21-08-2024 23:42:09,21-08-2024 23:42:09,0.020s,PASSED
+"userName = data.getValue(""userName"", index)",Chrome 127.0.0.0,,,21-08-2024 23:42:09,21-08-2024 23:42:09,0.272s,PASSED
+"Password = data.getValue(""Password"", index)",Chrome 127.0.0.0,,,21-08-2024 23:42:09,21-08-2024 23:42:09,0.091s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,21-08-2024 23:42:09,21-08-2024 23:42:17,7.740s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/"")",Chrome 127.0.0.0,,,21-08-2024 23:42:17,21-08-2024 23:42:22,5.163s,PASSED
+"click(findTestObject(""Object Repository/CheckOneColumn/Page_STORE/a_Log in""))",Chrome 127.0.0.0,,,21-08-2024 23:42:22,21-08-2024 23:42:26,3.740s,PASSED
+"setText(findTestObject(""Object Repository/CheckOneColumn/Page_STORE/input_Username_loginusername""), userName)",Chrome 127.0.0.0,,,21-08-2024 23:42:26,21-08-2024 23:42:27,1.184s,PASSED
+"setText(findTestObject(""Object Repository/CheckOneColumn/Page_STORE/input_Password_loginpassword""), Password)",Chrome 127.0.0.0,,,21-08-2024 23:42:27,21-08-2024 23:42:29,1.460s,PASSED
+"click(findTestObject(""Object Repository/CheckOneColumn/Page_STORE/button_Log in""))",Chrome 127.0.0.0,,,21-08-2024 23:42:29,21-08-2024 23:42:29,0.399s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/CheckOneColumn/Page_STORE/button_Log in""), 5, OPTIONAL)",Chrome 127.0.0.0,,,21-08-2024 23:42:29,21-08-2024 23:42:39,9.665s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,21-08-2024 23:42:39,21-08-2024 23:42:39,0.200s,PASSED
+,,,,,,,
+Test Cases/LoginWithoutIfCondition,Chrome 127.0.0.0,,,21-08-2024 23:42:39,21-08-2024 23:43:18,39.099s,PASSED
+"data = findTestData(""Data Files/LoginData/LoginData"")",Chrome 127.0.0.0,,,21-08-2024 23:42:39,21-08-2024 23:42:39,0.029s,PASSED
+index = 2,Chrome 127.0.0.0,,,21-08-2024 23:42:39,21-08-2024 23:42:39,0.003s,PASSED
+"userName = data.getValue(""userName"", index)",Chrome 127.0.0.0,,,21-08-2024 23:42:39,21-08-2024 23:42:39,0.004s,PASSED
+"Password = data.getValue(""Password"", index)",Chrome 127.0.0.0,,,21-08-2024 23:42:39,21-08-2024 23:42:39,0.004s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,21-08-2024 23:42:39,21-08-2024 23:42:40,0.900s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/"")",Chrome 127.0.0.0,,,21-08-2024 23:42:40,21-08-2024 23:43:11,30.783s,PASSED
+"click(findTestObject(""Object Repository/CheckOneColumn/Page_STORE/a_Log in""))",Chrome 127.0.0.0,,,21-08-2024 23:43:11,21-08-2024 23:43:14,2.700s,PASSED
+"setText(findTestObject(""Object Repository/CheckOneColumn/Page_STORE/input_Username_loginusername""), userName)",Chrome 127.0.0.0,,,21-08-2024 23:43:14,21-08-2024 23:43:15,0.955s,PASSED
+"setText(findTestObject(""Object Repository/CheckOneColumn/Page_STORE/input_Password_loginpassword""), Password)",Chrome 127.0.0.0,,,21-08-2024 23:43:15,21-08-2024 23:43:15,0.689s,PASSED
+"click(findTestObject(""Object Repository/CheckOneColumn/Page_STORE/button_Log in""))",Chrome 127.0.0.0,,,21-08-2024 23:43:15,21-08-2024 23:43:16,0.343s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/CheckOneColumn/Page_STORE/a_Log out""), 5, STOP_ON_FAILURE)",Chrome 127.0.0.0,,,21-08-2024 23:43:16,21-08-2024 23:43:18,2.345s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,21-08-2024 23:43:18,21-08-2024 23:43:18,0.204s,PASSED

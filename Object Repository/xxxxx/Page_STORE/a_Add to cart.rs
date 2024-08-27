@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Log out</name>
+   <name>a_Add to cart</name>
    <tag></tag>
-   <elementGuidId>5daa01fa-af8c-47c8-a688-7c40b57f44ea</elementGuidId>
+   <elementGuidId>709512de-592d-45f2-a2a2-74322c07eb0e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#logout2</value>
+         <value>a.btn.btn-success.btn-lg</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;logout2&quot;]</value>
+         <value>//a[@onclick='addToCart(1)']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,15 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>581c59a6-bce6-4a9c-8b54-20199f110fcb</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>nav-link</value>
-      <webElementGuid>c26c14ea-1db0-4287-8ee9-8a61c2b97275</webElementGuid>
+      <webElementGuid>d899e9db-7eba-4ff9-b0a8-73a1049135f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,126 +31,126 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>1c4e1099-a10b-4e34-9243-13fdd12e2bb8</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>logout2</value>
-      <webElementGuid>3b362ea3-2768-4ac0-8512-8d8a69010db6</webElementGuid>
+      <webElementGuid>14a63282-a3a3-4e0e-9765-1c86041c9353</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>logOut()</value>
-      <webElementGuid>3cf1cc98-ce27-47a1-8a96-6043f8d2d328</webElementGuid>
+      <value>addToCart(1)</value>
+      <webElementGuid>aa9d89f5-f69d-478d-8d3b-a0090561517c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-success btn-lg</value>
+      <webElementGuid>1cb2bf4e-3fd0-4bc8-a75a-260427f9e59e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Log out</value>
-      <webElementGuid>9138f641-081a-4eaf-876a-10bdb64bbb99</webElementGuid>
+      <value>Add to cart</value>
+      <webElementGuid>460bf2b1-1dfb-4561-bfac-ecf7d6f26f68</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;logout2&quot;)</value>
-      <webElementGuid>2c6d6508-5cd1-48f2-8524-0444c860e5ec</webElementGuid>
+      <value>id(&quot;tbodyid&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 col-md-6 col-lg-6&quot;]/a[@class=&quot;btn btn-success btn-lg&quot;]</value>
+      <webElementGuid>cb7462db-2d51-492a-b2c0-0a125fb488cb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='logout2']</value>
-      <webElementGuid>22c1cc9a-0e87-43d1-8abe-442a7f24735d</webElementGuid>
+      <value>//a[@onclick='addToCart(1)']</value>
+      <webElementGuid>f1f45bfd-aeb1-40f8-8803-0ab559e7be21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='navbarExample']/ul/li[6]/a</value>
-      <webElementGuid>e911f2ab-034d-492f-914c-146513ad00ac</webElementGuid>
+      <value>//div[@id='tbodyid']/div[2]/div/a</value>
+      <webElementGuid>54609c68-99f3-4276-a921-80860c3e3615</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Log out')]</value>
-      <webElementGuid>66be0bc0-ca0c-404a-802c-ea645acec180</webElementGuid>
+      <value>//a[contains(text(),'Add to cart')]</value>
+      <webElementGuid>5a0279cd-37b7-49b4-98c3-e1e4221e1c89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/following::a[2]</value>
-      <webElementGuid>bbcb884a-e86f-4d69-9b35-ad3212ab46cf</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product description'])[1]/following::a[1]</value>
+      <webElementGuid>8a107ce8-1d75-4bdc-ba67-981f7e129e53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::a[5]</value>
-      <webElementGuid>52945838-befe-4f16-b56c-617af7ce451a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*includes tax'])[1]/following::a[1]</value>
+      <webElementGuid>b0c09866-9cf2-4ac3-88b5-9839bd74d742</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/preceding::a[3]</value>
-      <webElementGuid>3a9a4225-540d-4125-b7d8-f74f8eb2e991</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='About Us'])[1]/preceding::a[1]</value>
+      <webElementGuid>e1e8f719-8e0f-4e44-9ad6-1c3be0f5ee8b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::a[4]</value>
-      <webElementGuid>3483d376-c1d4-4c2f-b309-b838c4a06511</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get in Touch'])[1]/preceding::a[1]</value>
+      <webElementGuid>de8a559f-ae43-422a-9a8b-b95bf820481a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Log out']/parent::*</value>
-      <webElementGuid>89f8b883-f569-4346-a0e7-feff3f37ee31</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Add to cart']/parent::*</value>
+      <webElementGuid>f681a876-03ef-4fc5-8d7c-24b8eacc080e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[4]</value>
-      <webElementGuid>5f4f7292-88c4-4a17-9d90-0988400ec534</webElementGuid>
+      <value>(//a[contains(@href, '#')])[9]</value>
+      <webElementGuid>e36e1974-2f0e-4f08-95f4-c86b95f88aef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[6]/a</value>
-      <webElementGuid>50af3703-6bf4-4c80-b927-c2f079a4233f</webElementGuid>
+      <value>//div[2]/div/a</value>
+      <webElementGuid>d224777d-a8e7-4b3c-ba05-77bfa9b1a6d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '#' and @id = 'logout2' and (text() = 'Log out' or . = 'Log out')]</value>
-      <webElementGuid>962f2249-9055-4066-b611-ca48fb99eed4</webElementGuid>
+      <value>//a[@href = '#' and (text() = 'Add to cart' or . = 'Add to cart')]</value>
+      <webElementGuid>f49ef38a-fae0-4682-ae4e-f57e31fdb375</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

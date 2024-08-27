@@ -73,6 +73,13 @@ WebUI.setText(findTestObject('Object Repository/PurchaseItems/Page_STORE/input_Y
 
 WebUI.click(findTestObject('Object Repository/PurchaseItems/Page_STORE/button_Purchase'))
 
+//def cardno = WebUI.getAttribute(findTestObject('Object Repository/PurchaseItems/Page_STORE/input_Credit card_card'), '123456789')
+def cardno = 123456789.toString()
+def displayPrice = WebUI.getText(findTestObject('Object Repository/PurchaseItems/Page_STORE/p_Id 1062777Amount 360 USDCard Number zxzcN_269f05'))
+def cardnoMatch = (displayPrice =~ /Card Number: (\d+)/)
+String extractedCardNumber = cardnoMatch[0][1]
+assert cardno == extractedCardNumber
+
 WebUI.click(findTestObject('Object Repository/PurchaseItems/Page_STORE/button_OK'))
 
 WebUI.closeBrowser()

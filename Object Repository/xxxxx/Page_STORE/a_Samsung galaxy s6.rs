@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Log out</name>
+   <name>a_Samsung galaxy s6</name>
    <tag></tag>
-   <elementGuidId>5daa01fa-af8c-47c8-a688-7c40b57f44ea</elementGuidId>
+   <elementGuidId>cc795981-134a-4338-8f84-d11500a18963</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#logout2</value>
+         <value>a.hrefch</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;logout2&quot;]</value>
+         <value>//div[@id='tbodyid']/div/div/div/h4/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,142 +23,118 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>581c59a6-bce6-4a9c-8b54-20199f110fcb</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>nav-link</value>
-      <webElementGuid>c26c14ea-1db0-4287-8ee9-8a61c2b97275</webElementGuid>
+      <webElementGuid>c06be721-e76b-4a87-a4e0-8cde760d2a9a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>#</value>
-      <webElementGuid>1c4e1099-a10b-4e34-9243-13fdd12e2bb8</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>logout2</value>
-      <webElementGuid>3b362ea3-2768-4ac0-8512-8d8a69010db6</webElementGuid>
+      <value>prod.html?idp_=1</value>
+      <webElementGuid>bc6e8235-5059-4ed8-922a-f65d429c6881</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>class</name>
       <type>Main</type>
-      <value>logOut()</value>
-      <webElementGuid>3cf1cc98-ce27-47a1-8a96-6043f8d2d328</webElementGuid>
+      <value>hrefch</value>
+      <webElementGuid>270d23d2-0a23-4d59-9e56-0ec3a3fcdc44</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Log out</value>
-      <webElementGuid>9138f641-081a-4eaf-876a-10bdb64bbb99</webElementGuid>
+      <value>Samsung galaxy s6</value>
+      <webElementGuid>329b86a6-ba38-4a13-a85d-7ddd556bbbc1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;logout2&quot;)</value>
-      <webElementGuid>2c6d6508-5cd1-48f2-8524-0444c860e5ec</webElementGuid>
+      <value>id(&quot;tbodyid&quot;)/div[@class=&quot;col-lg-4 col-md-6 mb-4&quot;]/div[@class=&quot;card h-100&quot;]/div[@class=&quot;card-block&quot;]/h4[@class=&quot;card-title&quot;]/a[@class=&quot;hrefch&quot;]</value>
+      <webElementGuid>6b68a455-1dfe-48a8-925c-e9a120942437</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//a[@id='logout2']</value>
-      <webElementGuid>22c1cc9a-0e87-43d1-8abe-442a7f24735d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='navbarExample']/ul/li[6]/a</value>
-      <webElementGuid>e911f2ab-034d-492f-914c-146513ad00ac</webElementGuid>
+      <value>//div[@id='tbodyid']/div/div/div/h4/a</value>
+      <webElementGuid>345891b3-dc96-4262-b570-02db92b19594</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Log out')]</value>
-      <webElementGuid>66be0bc0-ca0c-404a-802c-ea645acec180</webElementGuid>
+      <value>//a[contains(text(),'Samsung galaxy s6')]</value>
+      <webElementGuid>a0689805-dcc6-4502-bb54-ccba76d92192</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/following::a[2]</value>
-      <webElementGuid>bbcb884a-e86f-4d69-9b35-ad3212ab46cf</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CATEGORIES'])[1]/following::a[5]</value>
+      <webElementGuid>ead6b4af-f5c9-40b4-913b-06cba1c25a8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::a[5]</value>
-      <webElementGuid>52945838-befe-4f16-b56c-617af7ce451a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/following::a[6]</value>
+      <webElementGuid>86bc6dd6-4040-499d-a77d-2058384353c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/preceding::a[3]</value>
-      <webElementGuid>3a9a4225-540d-4125-b7d8-f74f8eb2e991</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$360'])[1]/preceding::a[1]</value>
+      <webElementGuid>e97b1cfb-0991-4792-baa0-56cfd5ac6cfc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::a[4]</value>
-      <webElementGuid>3483d376-c1d4-4c2f-b309-b838c4a06511</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nokia lumia 1520'])[1]/preceding::a[2]</value>
+      <webElementGuid>234e21ce-d4ac-4109-8c47-56eb03c9668d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Log out']/parent::*</value>
-      <webElementGuid>89f8b883-f569-4346-a0e7-feff3f37ee31</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Samsung galaxy s6']/parent::*</value>
+      <webElementGuid>0fd6ce0e-4bfa-46d1-bc75-c84c0553d94d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[4]</value>
-      <webElementGuid>5f4f7292-88c4-4a17-9d90-0988400ec534</webElementGuid>
+      <value>(//a[contains(@href, 'prod.html?idp_=1')])[2]</value>
+      <webElementGuid>c083be91-32ba-40ff-a8ea-92f1f4a472e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[6]/a</value>
-      <webElementGuid>50af3703-6bf4-4c80-b927-c2f079a4233f</webElementGuid>
+      <value>//h4/a</value>
+      <webElementGuid>84c2a9f9-2a8e-4133-a2c6-3e5281dbbf11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '#' and @id = 'logout2' and (text() = 'Log out' or . = 'Log out')]</value>
-      <webElementGuid>962f2249-9055-4066-b611-ca48fb99eed4</webElementGuid>
+      <value>//a[@href = 'prod.html?idp_=1' and (text() = 'Samsung galaxy s6' or . = 'Samsung galaxy s6')]</value>
+      <webElementGuid>da05261f-10d5-41c5-adea-dd105ef8c29e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

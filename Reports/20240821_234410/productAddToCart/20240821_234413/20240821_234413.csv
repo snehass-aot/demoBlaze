@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+productAddToCart,Chrome 127.0.0.0,,,21-08-2024 23:44:31,21-08-2024 23:45:40,1m - 9.172s,PASSED
+,,,,,,,
+Test Cases/ProductAddToCart,Chrome 127.0.0.0,,,21-08-2024 23:44:32,21-08-2024 23:45:08,35.694s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,21-08-2024 23:44:34,21-08-2024 23:44:42,7.485s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/"")",Chrome 127.0.0.0,,,21-08-2024 23:44:42,21-08-2024 23:44:42,0.526s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_HTC One M9""))",Chrome 127.0.0.0,,,21-08-2024 23:44:42,21-08-2024 23:44:49,6.546s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 23:44:49,21-08-2024 23:44:50,1.189s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Home (current)""))",Chrome 127.0.0.0,,,21-08-2024 23:44:50,21-08-2024 23:44:52,1.735s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/button_Next""))",Chrome 127.0.0.0,,,21-08-2024 23:44:52,21-08-2024 23:44:52,0.793s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Dell i7 8gb""))",Chrome 127.0.0.0,,,21-08-2024 23:44:52,21-08-2024 23:44:56,3.800s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 23:44:56,21-08-2024 23:44:58,1.694s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Home (current)""))",Chrome 127.0.0.0,,,21-08-2024 23:44:58,21-08-2024 23:45:00,1.723s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Sony vaio i5""))",Chrome 127.0.0.0,,,21-08-2024 23:45:00,21-08-2024 23:45:01,1.716s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 23:45:01,21-08-2024 23:45:02,0.980s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Cart""))",Chrome 127.0.0.0,,,21-08-2024 23:45:02,21-08-2024 23:45:05,2.682s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Delete""), 5, STOP_ON_FAILURE)",Chrome 127.0.0.0,,,21-08-2024 23:45:05,21-08-2024 23:45:08,2.712s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,21-08-2024 23:45:08,21-08-2024 23:45:08,0.236s,PASSED
+,,,,,,,
+Test Cases/ProductAddToCartWithoutLogin,Chrome 127.0.0.0,,,21-08-2024 23:45:08,21-08-2024 23:45:40,32.531s,PASSED
+"data = findTestData(""LoginData/LoginData"")",Chrome 127.0.0.0,,,21-08-2024 23:45:08,21-08-2024 23:45:09,0.531s,PASSED
+index = 2,Chrome 127.0.0.0,,,21-08-2024 23:45:09,21-08-2024 23:45:09,0.002s,PASSED
+"userName = data.getValue(""userName"", index)",Chrome 127.0.0.0,,,21-08-2024 23:45:09,21-08-2024 23:45:09,0.031s,PASSED
+"Password = data.getValue(""Password"", index)",Chrome 127.0.0.0,,,21-08-2024 23:45:09,21-08-2024 23:45:09,0.022s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,21-08-2024 23:45:09,21-08-2024 23:45:09,0.732s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/"")",Chrome 127.0.0.0,,,21-08-2024 23:45:09,21-08-2024 23:45:19,9.126s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_HTC One M9""))",Chrome 127.0.0.0,,,21-08-2024 23:45:19,21-08-2024 23:45:21,2.804s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 23:45:21,21-08-2024 23:45:23,1.445s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Home (current)""))",Chrome 127.0.0.0,,,21-08-2024 23:45:23,21-08-2024 23:45:28,4.708s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/button_Next""))",Chrome 127.0.0.0,,,21-08-2024 23:45:28,21-08-2024 23:45:29,1.034s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Dell i7 8gb""))",Chrome 127.0.0.0,,,21-08-2024 23:45:29,21-08-2024 23:45:31,2.590s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 23:45:31,21-08-2024 23:45:33,1.578s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Home (current)""))",Chrome 127.0.0.0,,,21-08-2024 23:45:33,21-08-2024 23:45:34,1.311s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Sony vaio i5""))",Chrome 127.0.0.0,,,21-08-2024 23:45:34,21-08-2024 23:45:36,1.610s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Add to cart""))",Chrome 127.0.0.0,,,21-08-2024 23:45:36,21-08-2024 23:45:37,0.978s,PASSED
+"click(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Cart""))",Chrome 127.0.0.0,,,21-08-2024 23:45:37,21-08-2024 23:45:38,1.363s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AddToCart/Page_STORE/a_Delete""), 5, STOP_ON_FAILURE)",Chrome 127.0.0.0,,,21-08-2024 23:45:38,21-08-2024 23:45:40,2.001s,PASSED
+"click(findTestObject(""Object Repository/AddProduct/Page_STORE/a_Delete""), OPTIONAL)",Chrome 127.0.0.0,,,21-08-2024 23:45:40,21-08-2024 23:45:40,0.214s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,21-08-2024 23:45:40,21-08-2024 23:45:40,0.222s,PASSED

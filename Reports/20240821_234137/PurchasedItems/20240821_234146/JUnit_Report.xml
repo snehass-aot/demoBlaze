@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PurchasedItems" time="85.231" tests="2" failures="0" errors="0">
+   <testsuite name="PurchasedItems" tests="2" failures="0" errors="0" time="85.231" skipped="0" timestamp="21-08-2024T23:42:07" hostname="aotir - DESKTOP-P1HQTDN" id="Test Suites/PurchasedItems">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\aotir\\git\\demoBlaze\\Reports\\20240821_234137\\PurchasedItems\\20240821_234146"/>
+         <property name="logFiles" value="C:\\Users\\aotir\\git\\demoBlaze\\Reports\\20240821_234137\\PurchasedItems\\20240821_234146\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aotir - DESKTOP-P1HQTDN"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="192.168.5.2"/>
+         <property name="sessionId" value="6a322d0e4974b5a87ebebde4c409d353"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/PurchaseItems" time="63.988" classname="Test Cases/PurchaseItems" status="PASSED">
+         <system-out><![CDATA[21-08-2024T23:42:08 - [TEST_CASE][PASSED] - Test Cases/PurchaseItems: Test Cases/PurchaseItems
+
+21-08-2024T23:42:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-08-2024T23:42:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-08-2024T23:42:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-08-2024T23:42:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-08-2024T23:42:17 - [TEST_STEP][PASSED] - navigateToUrl("https://www.demoblaze.com/"): Navigate to 'https://www.demoblaze.com/' successfully
+
+21-08-2024T23:42:19 - [MESSAGE][PASSED] - Navigate to 'https://www.demoblaze.com/' successfully
+
+21-08-2024T23:42:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseItems/Page_STORE/a_Samsung galaxy s6")): Object: 'Object Repository/PurchaseItems/Page_STORE/a_Samsung galaxy s6' is clicked on
+
+21-08-2024T23:42:25 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseItems/Page_STORE/a_Samsung galaxy s6' is clicked on
+
+21-08-2024T23:42:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseItems/Page_STORE/a_Add to cart")): Object: 'Object Repository/PurchaseItems/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T23:42:28 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseItems/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T23:42:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseItems/Page_STORE/a_Home (current)")): Object: 'Object Repository/PurchaseItems/Page_STORE/a_Home (current)' is clicked on
+
+21-08-2024T23:42:35 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseItems/Page_STORE/a_Home (current)' is clicked on
+
+21-08-2024T23:42:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseItems/Page_STORE/a_Sony vaio i5")): Object: 'Object Repository/PurchaseItems/Page_STORE/a_Sony vaio i5' is clicked on
+
+21-08-2024T23:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseItems/Page_STORE/a_Sony vaio i5' is clicked on
+
+21-08-2024T23:42:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseItems/Page_STORE/a_Add to cart")): Object: 'Object Repository/PurchaseItems/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T23:42:42 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseItems/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T23:42:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseItems/Page_STORE/a_Home (current)")): Object: 'Object Repository/PurchaseItems/Page_STORE/a_Home (current)' is clicked on
+
+21-08-2024T23:42:49 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseItems/Page_STORE/a_Home (current)' is clicked on
+
+21-08-2024T23:42:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseItems/Page_STORE/button_Next")): Object: 'Object Repository/PurchaseItems/Page_STORE/button_Next' is clicked on
+
+21-08-2024T23:42:50 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseItems/Page_STORE/button_Next' is clicked on
+
+21-08-2024T23:42:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseItems/Page_STORE/a_Dell i7 8gb")): Object: 'Object Repository/PurchaseItems/Page_STORE/a_Dell i7 8gb' is clicked on
+
+21-08-2024T23:42:53 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseItems/Page_STORE/a_Dell i7 8gb' is clicked on
+
+21-08-2024T23:42:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseItems/Page_STORE/a_Add to cart")): Object: 'Object Repository/PurchaseItems/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T23:42:56 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseItems/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T23:42:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseItems/Page_STORE/a_Cart")): Object: 'Object Repository/PurchaseItems/Page_STORE/a_Cart' is clicked on
+
+21-08-2024T23:42:59 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseItems/Page_STORE/a_Cart' is clicked on
+
+21-08-2024T23:42:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseItems/Page_STORE/button_Place Order")): Object: 'Object Repository/PurchaseItems/Page_STORE/button_Place Order' is clicked on
+
+21-08-2024T23:43:03 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseItems/Page_STORE/button_Place Order' is clicked on
+
+21-08-2024T23:43:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PurchaseItems/Page_STORE/input_Name_name"), "sneha"): Text 'sneha' is set on object 'Object Repository/PurchaseItems/Page_STORE/input_Name_name'
+
+21-08-2024T23:43:04 - [MESSAGE][PASSED] - Text 'sneha' is set on object 'Object Repository/PurchaseItems/Page_STORE/input_Name_name'
+
+21-08-2024T23:43:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PurchaseItems/Page_STORE/input_Country_country"), "india"): Text 'india' is set on object 'Object Repository/PurchaseItems/Page_STORE/input_Country_country'
+
+21-08-2024T23:43:05 - [MESSAGE][PASSED] - Text 'india' is set on object 'Object Repository/PurchaseItems/Page_STORE/input_Country_country'
+
+21-08-2024T23:43:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PurchaseItems/Page_STORE/input_City_city"), "Trivian"): Text 'Trivian' is set on object 'Object Repository/PurchaseItems/Page_STORE/input_City_city'
+
+21-08-2024T23:43:06 - [MESSAGE][PASSED] - Text 'Trivian' is set on object 'Object Repository/PurchaseItems/Page_STORE/input_City_city'
+
+21-08-2024T23:43:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PurchaseItems/Page_STORE/input_Credit card_card"), "123456789"): Text '123456789' is set on object 'Object Repository/PurchaseItems/Page_STORE/input_Credit card_card'
+
+21-08-2024T23:43:07 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/PurchaseItems/Page_STORE/input_Credit card_card'
+
+21-08-2024T23:43:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PurchaseItems/Page_STORE/input_Month_month"), "June"): Text 'June' is set on object 'Object Repository/PurchaseItems/Page_STORE/input_Month_month'
+
+21-08-2024T23:43:07 - [MESSAGE][PASSED] - Text 'June' is set on object 'Object Repository/PurchaseItems/Page_STORE/input_Month_month'
+
+21-08-2024T23:43:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PurchaseItems/Page_STORE/input_Year_year"), "2024"): Text '2024' is set on object 'Object Repository/PurchaseItems/Page_STORE/input_Year_year'
+
+21-08-2024T23:43:08 - [MESSAGE][PASSED] - Text '2024' is set on object 'Object Repository/PurchaseItems/Page_STORE/input_Year_year'
+
+21-08-2024T23:43:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseItems/Page_STORE/button_Purchase")): Object: 'Object Repository/PurchaseItems/Page_STORE/button_Purchase' is clicked on
+
+21-08-2024T23:43:08 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseItems/Page_STORE/button_Purchase' is clicked on
+
+21-08-2024T23:43:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseItems/Page_STORE/button_OK")): Object: 'Object Repository/PurchaseItems/Page_STORE/button_OK' is clicked on
+
+21-08-2024T23:43:11 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseItems/Page_STORE/button_OK' is clicked on
+
+21-08-2024T23:43:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-08-2024T23:43:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PurchaseItemsWithoutFillTheForm" time="20.284" classname="Test Cases/PurchaseItemsWithoutFillTheForm" status="PASSED">
+         <system-out><![CDATA[21-08-2024T23:43:12 - [TEST_CASE][PASSED] - Test Cases/PurchaseItemsWithoutFillTheForm: Test Cases/PurchaseItemsWithoutFillTheForm
+
+21-08-2024T23:43:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-08-2024T23:43:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-08-2024T23:43:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-08-2024T23:43:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-08-2024T23:43:13 - [TEST_STEP][PASSED] - navigateToUrl("https://www.demoblaze.com/"): Navigate to 'https://www.demoblaze.com/' successfully
+
+21-08-2024T23:43:13 - [MESSAGE][PASSED] - Navigate to 'https://www.demoblaze.com/' successfully
+
+21-08-2024T23:43:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_HTC One M9")): Object: 'Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_HTC One M9' is clicked on
+
+21-08-2024T23:43:17 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_HTC One M9' is clicked on
+
+21-08-2024T23:43:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Add to cart")): Object: 'Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T23:43:18 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T23:43:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Home (current)")): Object: 'Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Home (current)' is clicked on
+
+21-08-2024T23:43:19 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Home (current)' is clicked on
+
+21-08-2024T23:43:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Sony vaio i5")): Object: 'Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Sony vaio i5' is clicked on
+
+21-08-2024T23:43:20 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Sony vaio i5' is clicked on
+
+21-08-2024T23:43:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Add to cart")): Object: 'Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T23:43:21 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T23:43:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Home (current)")): Object: 'Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Home (current)' is clicked on
+
+21-08-2024T23:43:22 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Home (current)' is clicked on
+
+21-08-2024T23:43:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseWithoutFillTheForm/Page_STORE/button_Next")): Object: 'Object Repository/PurchaseWithoutFillTheForm/Page_STORE/button_Next' is clicked on
+
+21-08-2024T23:43:23 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseWithoutFillTheForm/Page_STORE/button_Next' is clicked on
+
+21-08-2024T23:43:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Dell i7 8gb")): Object: 'Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Dell i7 8gb' is clicked on
+
+21-08-2024T23:43:25 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Dell i7 8gb' is clicked on
+
+21-08-2024T23:43:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Add to cart")): Object: 'Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T23:43:27 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Add to cart' is clicked on
+
+21-08-2024T23:43:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Cart")): Object: 'Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Cart' is clicked on
+
+21-08-2024T23:43:29 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseWithoutFillTheForm/Page_STORE/a_Cart' is clicked on
+
+21-08-2024T23:43:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseWithoutFillTheForm/Page_STORE/button_Place Order")): Object: 'Object Repository/PurchaseWithoutFillTheForm/Page_STORE/button_Place Order' is clicked on
+
+21-08-2024T23:43:31 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseWithoutFillTheForm/Page_STORE/button_Place Order' is clicked on
+
+21-08-2024T23:43:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseWithoutFillTheForm/Page_STORE/button_Purchase")): Object: 'Object Repository/PurchaseWithoutFillTheForm/Page_STORE/button_Purchase' is clicked on
+
+21-08-2024T23:43:32 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseWithoutFillTheForm/Page_STORE/button_Purchase' is clicked on
+
+21-08-2024T23:43:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseWithoutFillTheForm/Page_STORE/button_Close")): Object: 'Object Repository/PurchaseWithoutFillTheForm/Page_STORE/button_Close' is clicked on
+
+21-08-2024T23:43:32 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseWithoutFillTheForm/Page_STORE/button_Close' is clicked on
+
+21-08-2024T23:43:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-08-2024T23:43:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-08-2024T23:42:07 - [TEST_SUITE][PASSED] - PurchasedItems: Test Cases/PurchaseItemsWithoutFillTheForm]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

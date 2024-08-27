@@ -39,13 +39,14 @@ for (def index : (1..data.getRowNumbers())) {
 	WebUI.click(findTestObject('Object Repository/valid user invalid pass/Page_STORE/button_Log in'))
 	
 	// Verify if login was successful by checking for the 'Log out' button
-	def isLoginSuccessful = WebUI.verifyElementPresent(findTestObject('Object Repository/valid user invalid pass/Page_STORE/a_Log out'), 5, FailureHandling.CONTINUE_ON_FAILURE)
+	def isLoginSuccessful = WebUI.waitForElementClickable(findTestObject('Object Repository/valid user invalid pass/Page_STORE/a_Log out'), 5, FailureHandling.OPTIONAL)
 	
 	// Conditional statement to handle login success or failure
 	if (isLoginSuccessful) {
 		// If login is successful, log out
-		WebUI.click(findTestObject('Object Repository/valid user invalid pass/Page_STORE/a_Log out'))
-		println('Login successful, logged out.')
+		println('Login successful')
+		WebUI.verifyElementPresent(findTestObject('Object Repository/valid user invalid pass/Page_STORE/a_Log out'),5)
+		
 	} else {
 		// If login fails, print 'invalid' and continue with the next iteration
 		println('invalid')
