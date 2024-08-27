@@ -16,42 +16,34 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-// Load test data
+
 def data = findTestData('Data Files/LoginData/LoginData')
 
-// Iterate over each row of data
 for (def index : (1..data.getRowNumbers())) {
 	def userName = data.getValue('userName', index)
 	def Password = data.getValue('Password', index)
 	
-	// Open browser and navigate to the login page
 	WebUI.openBrowser('')
 	WebUI.navigateToUrl('https://www.demoblaze.com/')
 	
-	// Click on the 'Log in' button
 	WebUI.click(findTestObject('Object Repository/valid user invalid pass/Page_STORE/a_Log in'))
 	
-	// Enter username and password
 	WebUI.setText(findTestObject('Object Repository/valid user invalid pass/Page_STORE/input_Username_loginusername'), userName)
 	WebUI.setText(findTestObject('Object Repository/valid user invalid pass/Page_STORE/input_Password_loginpassword'), Password)
 	
-	// Click on the 'Log in' button
 	WebUI.click(findTestObject('Object Repository/valid user invalid pass/Page_STORE/button_Log in'))
 	
-	// Verify if login was successful by checking for the 'Log out' button
-	def isLoginSuccessful = WebUI.waitForElementClickable(findTestObject('Object Repository/valid user invalid pass/Page_STORE/a_Log out'), 5, FailureHandling.OPTIONAL)
+	def isLoginSuccessful = WebUI.waitForElementVisible(findTestObject('Object Repository/valid user invalid pass/Page_STORE/a_Log out'), 1, FailureHandling.OPTIONAL)
 	
-	// Conditional statement to handle login success or failure
 	if (isLoginSuccessful) {
-		// If login is successful, log out
 		println('Login successful')
 		WebUI.verifyElementPresent(findTestObject('Object Repository/valid user invalid pass/Page_STORE/a_Log out'),5)
 		
 	} else {
-		// If login fails, print 'invalid' and continue with the next iteration
 		println('invalid')
 	}
 	
-	// Close the browser
 	WebUI.closeBrowser()
 }
+
+
